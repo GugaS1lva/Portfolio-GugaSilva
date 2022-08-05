@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-gugasilva",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GugaS1lva/Portfolio-GugaSilva.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GugaS1lva/Portfolio-GugaSilva/issues"
+  },
+  "homepage": "https://github.com/GugaS1lva/Portfolio-GugaSilva#readme",
+  "dependencies": {
+    "next": "^12.2.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
