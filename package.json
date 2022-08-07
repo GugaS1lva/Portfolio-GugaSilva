@@ -1,7 +1,6 @@
 {
   "name": "portfolio-gugasilva",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "next dev"
@@ -21,5 +20,6 @@
     "next": "^12.2.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  }
+  },
+  "description": ""
 }

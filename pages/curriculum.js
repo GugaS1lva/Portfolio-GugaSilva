@@ -1,18 +1,8 @@
-import Head from "next/head"
 import Link from "next/link"
 
-function Home() {
+function Curriculo() {
     return (
         <>
-            <Head>
-                <meta charset="UTF-8" />
-                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-                <link ref="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
-                <link rel="shortcut icon" href="/images/react-icon.png" type="image/x-icon" />
-                <title>Guga Silva | Portfólio</title>
-            </Head>
-
             {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ HEADER ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
 
             <header>
@@ -52,7 +42,7 @@ function Home() {
 
             {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ MAIN ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
 
-            <></>
+            <>CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - CURRÍCULO - </>
 
             {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ FOOTER ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
 
@@ -85,4 +75,4 @@ function Home() {
     )
 }
 
-export default Home
+export default Curriculo
