@@ -1,5 +1,10 @@
+import { library } from "@fortawesome/fontawesome-svg-core"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { fas } from "@fortawesome/free-solid-svg-icons"
 import Head from "next/head"
 import Link from "next/link"
+
+library.add(fas)
 
 function Home() {
     return (
@@ -52,7 +57,48 @@ function Home() {
 
             {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ MAIN ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
 
-            <></>
+            <main>
+                <section className="centralCard">
+                    <div className="leftCard">
+                        <div className="leftInfoContainer">
+                            <img src="/images/perfil-clone.jpeg" alt="" />
+                            <strong>Gustavo<br /> Silva</strong>
+                            <span>DESENVOLVEDOR WEB</span>
+                        </div>
+
+                        <div className="leftIconContainer">
+                            {/* <FontAwesomeIcon icon="coffee" />
+                            <FontAwesomeIcon icon="fa-solid fa-envelope" />
+                            <FontAwesomeIcon icon="fa-solid fa-paper-plane" /> */}
+                        </div>
+                    </div>
+
+                    <div className="rightCard">
+                        <div className="topInfoContainer">
+                            <h2>Olá</h2>
+
+                            <h3>Meu perfil e meus projetos</h3>
+
+                            <div className="buttonsContainer">
+                                <Link href="/curriculum">
+                                    <a>CURRÍCULO</a>
+                                </Link>
+                                <Link href="/projects">
+                                    <a>PROJETOS</a>
+                                </Link>
+                            </div>
+                        </div>
+
+                        <div className="botInfoContainer">
+                            <p>
+                                Olá, meu nome é Gustavo Antonio da Silva. Sou pró-ativo, direto e dinâmico. Capaz de demonstrar uma sociabilidade bastante atraente, dependendo do que a situação exigir.
+                                <br /><br />
+                                Tenho muitos objetivos e posso comprometer-me para alcançá-los. Procuro manter uma posição de dominância tanto em termos de autoridade pessoal e controle quanto no âmbito social. Gosto de sentir que sou apreciado e respeitado pelos outros.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </main>
 
             {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ FOOTER ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
 
@@ -73,7 +119,7 @@ function Home() {
 
                     <div className="email">
                         <h3>Email</h3>
-                        <a href="mailto:contatogustavosilva017@outlook.com" target="_blank">contatogustavosilva017@outlook.com</a>
+                        <a href="mailto:contatogustavosilva017@outlook.com">contatogustavosilva017@outlook.com</a>
                     </div>
 
                     <div className="network">
