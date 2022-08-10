@@ -161,7 +161,7 @@ footer{
 .social div{
     margin: 0 20px;
 }
-.social .phone, .email, h3{
+.social .phone, .email, .social h3{
     display: flex;
     flex-direction: column;
     align-items: center;
