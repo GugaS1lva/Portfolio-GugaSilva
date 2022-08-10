@@ -62,10 +62,9 @@ function Curriculo() {
                     <section className="experience">
                         <div className="titleCV">
                             <h3>Experiência</h3>
-                            <Link href="/curriculum">
+                            <Link href="/cv/curriculo-dev-gugasilva.zip" download="curriculo-dev-gugasilva.pdf" type="application/zip" target="_blank">
                                 <a>BAIXAR CV</a>
                             </Link>
-                            {/* CRIAR BOTÃO BAIXAR CURRÍCULO */}
                         </div>
 
                         <div className="exampleCard">
@@ -131,13 +130,18 @@ function Curriculo() {
                         </div>
                     </section>
 
-                    <section className="skills">
-                        <h4>Tecnologias</h4>
-                        
-                        {/* <div className="skillsContainer">
+                    <section className="skillsContainer">
+                        <h4>Habilidades Técnicas</h4>
+
+                        <div className="skills">
                             <div className="skill">
-                                <div className="square"></div>
-                                <p>HTML5</p>
+                                <div class="skillTitle">
+                                    <div className="square"></div>
+                                    <p>HTML5</p>
+                                </div>
+                                <div className="skillIcon">
+                                    {/*  */}
+                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <li>Semântica</li>
@@ -147,10 +151,15 @@ function Curriculo() {
                                     </ul>
                                 </div>
                             </div>
-                            =======
+
                             <div className="skill">
-                                <div className="square"></div>
-                                <p>CSS3</p>
+                                <div class="skillTitle">
+                                    <div className="square"></div>
+                                    <p>CSS3</p>
+                                </div>
+                                <div className="skillIcon">
+                                    {/*  */}
+                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <li>Herança</li>
@@ -160,41 +169,66 @@ function Curriculo() {
                                         <li>Flexbox/Grid</li>
                                         <li>Media Queries</li>
                                         <li>Animações Simples</li>
-                                        <li><mark>Sass, Less, PostCSS</mark></li>
+                                        <mark>
+                                            <li>Sass, Less, PostCSS</li>
+                                        </mark>
                                     </ul>
                                 </div>
                             </div>
-                            =======
+
                             <div className="skill">
-                                <div className="square"></div>
-                                <p>JAVASCRIPT</p>
+                                <div class="skillTitle">
+                                    <div className="square"></div>
+                                    <p>JAVASCRIPT</p>
+                                </div>
+                                <div className="skillIcon">
+                                    {/*  */}
+                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <li>Sintax</li>
                                         <li>DOM</li>
                                         <li>Fetch API/<mark>(Ajax (XHR))</mark></li>
-                                        <li><mark>ES6+ & Modules</mark></li>
-                                        <li><mark>FP - Programação Funcional</mark></li>
-                                        <li><mark>Prorotype, POO</mark></li>
+                                        <mark>
+                                            <li>ES6+ & Modules</li>
+                                        </mark>
+                                        <mark>
+                                            <li>FP - Programação Funcional</li>
+                                        </mark>
+                                        <mark>
+                                            <li>Prorotype, POO</li>
+                                        </mark>
                                     </ul>
                                 </div>
                             </div>
-                            =======
+
                             <div className="skill">
-                                <div className="square"></div>
-                                <p>FRAMEWORK CSS</p>
+                                <div class="skillTitle">
+                                    <div className="square"></div>
+                                    <p>FRAMEWORK CSS</p>
+                                </div>
+                                <div className="skillIcon">
+                                    {/*  */}
+                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <li>Bootstrapp</li>
                                         <li>Tailwind</li>
-                                        <li>Materialize</li>
+                                        <mark>
+                                            <li>Materialize</li>
+                                        </mark>
                                     </ul>
                                 </div>
                             </div>
-                            =======
+
                             <div className="skill">
-                                <div className="square"></div>
-                                <p>VERSIONAMENTO DE CÓDIGO</p>
+                                <div class="skillTitle">
+                                    <div className="square"></div>
+                                    <p>VERSIONAMENTO DE CÓDIGO</p>
+                                </div>
+                                <div className="skillIcon">
+                                    {/*  */}
+                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <li>Git</li>
@@ -203,10 +237,15 @@ function Curriculo() {
                                     </ul>
                                 </div>
                             </div>
-                            =======
+
                             <div className="skill">
-                                <div className="square"></div>
-                                <p>GERENCIADOR DE PACOTES</p>
+                                <div class="skillTitle">
+                                    <div className="square"></div>
+                                    <p>GERENCIADOR DE PACOTES</p>
+                                </div>
+                                <div className="skillIcon">
+                                    {/*  */}
+                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <li>NPM</li>
@@ -214,59 +253,94 @@ function Curriculo() {
                                     </ul>
                                 </div>
                             </div>
-                            =======
+
                             <div className="skill">
-                                <div className="square"></div>
-                                <p>BIBLIOTECAS/FRAMEWORKS JS</p>
+                                <div class="skillTitle">
+                                    <div className="square"></div>
+                                    <p>BIBLIOTECAS/<br />FRAMEWORKS JS</p>
+                                </div>
+                                <div className="skillIcon">
+                                    {/*  */}
+                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <li>React</li>
-                                        <li>Angular</li>
-                                        <li>Vue</li>
+                                        <mark>
+                                            <li>Angular</li>
+                                        </mark>
+                                        <mark>
+                                            <li>Vue</li>
+                                        </mark>
                                     </ul>
                                 </div>
                             </div>
-                            =======
+
                             <div className="skill">
-                                <div className="square"></div>
-                                <p>TESTES</p>
+                                <div class="skillTitle">
+                                    <div className="square"></div>
+                                    <p>TESTES</p>
+                                </div>
+                                <div className="skillIcon">
+                                    {/*  */}
+                                </div>
                                 <div className="skillDesc">
                                     <ul>
-                                        <li><mark>Cypress</mark></li>
+                                        <mark>
+                                            <li>Cypress</li>
+                                        </mark>
                                         <li>Jest</li>
-                                        <li><mark>Enzyme</mark></li>
+                                        <mark>
+                                            <li>Enzyme</li>
+                                        </mark>
                                     </ul>
                                 </div>
                             </div>
-                            =======
+
                             <div className="skill">
-                                <div className="square"></div>
-                                <p>SSR</p>
+                                <div class="skillTitle">
+                                    <div className="square"></div>
+                                    <p>SSR</p>
+                                </div>
+                                <div className="skillIcon">
+                                    {/*  */}
+                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <li>Next.js (REACT)</li>
-                                        <li><mark>Universal (ANGULAR)</mark></li>
-                                        <li><mark>Nuxt.js (VUE)</mark></li>
+                                        <mark>
+                                            <li>Universal (ANGULAR)</li>
+                                        </mark>
+                                        <mark>
+                                            <li>Nuxt.js (VUE)</li>
+                                        </mark>
                                     </ul>
                                 </div>
                             </div>
-                            =======
+
                             <div className="skill">
-                                <div className="square"></div>
-                                <p>BUNDLERS</p>
+                                <div class="skillTitle">
+                                    <div className="square"></div>
+                                    <p>BUNDLERS</p>
+                                </div>
+                                <div className="skillIcon">
+                                    {/*  */}
+                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <mark>
                                             <li>Webpack</li>
                                         </mark>
-                                        <li><mark>Parcel</mark></li>
-                                        <li><mark>esbuild</mark></li>
+                                        <mark>
+                                            <li>Parcel</li>
+                                        </mark>
+                                        <mark>
+                                            <li>esbuild</li>
+                                        </mark>
                                     </ul>
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </section>
-
                 </section>
             </main>
 

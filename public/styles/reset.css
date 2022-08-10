@@ -10,3 +10,7 @@
     box-sizing: border-box;
     font-family: 'Quicksand', sans-serif;
 }
+
+ul li{
+    list-style: none;
+}
