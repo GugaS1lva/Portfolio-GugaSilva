@@ -1,4 +1,4 @@
-header{
+header {
     overflow: hidden;
     position: fixed;
     width: 100%;
@@ -10,35 +10,43 @@ header{
     z-index: 1;
     background-color: white;
 }
-header .me{
+
+header .me {
     display: flex;
     align-items: center;
 }
-header .me .square{
+
+header .me .square {
     display: block;
     width: 17px;
     height: 17px;
     background-color: #0050FF;
     margin: 0 5px;
 }
-header .me strong{
+
+header .me strong {
     font-size: 1.6rem;
     font-family: 'Poppins', sans-serif;
     margin: 0 5px;
 }
-header .me span{
+
+header .me span {
     font-size: 1.2rem;
     margin: 0 10px;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
     list-style: none;
 }
-header nav ul li:hover, header nav ul li a:hover{
+
+header nav ul li:hover,
+header nav ul li a:hover {
     cursor: pointer;
     color: #0050FF;
 }
-header nav ul li a{
+
+header nav ul li a {
     text-decoration: none;
     color: black;
     padding: 10px;
@@ -46,8 +54,9 @@ header nav ul li a{
     font-size: 0.9rem;
 }
 
-/* -------------------------------- *//* -------------------------------- */
-.indexContainer{
+/* -------------------------------- */
+/* -------------------------------- */
+.indexContainer {
     height: 100vh;
     padding: 150px 0 50px 0;
 
@@ -58,13 +67,15 @@ header nav ul li a{
     width: 98vw;
     height: 140vh;
 }
-.indexContainer .centralCard{
+
+.indexContainer .centralCard {
     display: flex;
     width: 900px;
     height: 600px;
     background-color: white;
 }
-.indexContainer .leftCard{
+
+.indexContainer .leftCard {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -75,35 +86,40 @@ header nav ul li a{
     box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.219);
 
 }
-.indexContainer .leftCard .leftInfoContainer{
+
+.indexContainer .leftCard .leftInfoContainer {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.indexContainer .leftCard .leftInfoContainer img{
+
+.indexContainer .leftCard .leftInfoContainer img {
     width: 200px;
     height: 200px;
     border-radius: 100%;
     margin: 40px;
 }
-.indexContainer .leftCard .leftInfoContainer strong{
+
+.indexContainer .leftCard .leftInfoContainer strong {
     font-size: 1.9rem;
     font-family: 'Poppins', sans-serif;
     line-height: 35px;
     padding-bottom: 25px;
     border-bottom: 2px solid #0050FF;
 }
-.indexContainer .leftCard .leftInfoContainer span{
+
+.indexContainer .leftCard .leftInfoContainer span {
     font-size: 1.1rem;
     letter-spacing: 5px;
     padding: 35px;
 }
-.indexContainer .leftCard .leftIconContainer{
+
+.indexContainer .leftCard .leftIconContainer {
     background-color: white;
     padding: 20px;
 }
 
-.indexContainer .rightCard{
+.indexContainer .rightCard {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -111,15 +127,17 @@ header nav ul li a{
     padding: 35px;
 }
 
-.indexContainer .topInfoContainer h2{
+.indexContainer .topInfoContainer h2 {
     font-family: 'Poppins', sans-serif;
     font-size: 6rem;
 }
-.indexContainer .topInfoContainer h3{
+
+.indexContainer .topInfoContainer h3 {
     font-size: 1.5rem;
     margin: -10px 0 40px 0;
 }
-.indexContainer .buttonsContainer a{
+
+.indexContainer .buttonsContainer a {
     align-items: center;
     background-color: #0050FF;
     color: white;
@@ -129,50 +147,58 @@ header nav ul li a{
     text-decoration: none;
     margin-right: 10px;
 }
-.indexContainer .buttonsContainer a:hover{
+
+.indexContainer .buttonsContainer a:hover {
     background-color: white;
     color: black;
     border: 2px solid black;
     padding: 6px 23px;
 }
 
-.indexContainer .botInfoContainer p{
+.indexContainer .botInfoContainer p {
     font-size: 1rem;
     line-height: 25px;
     margin: 0px 0 -6px 0;
 }
 
-/* -------------------------------- *//* -------------------------------- */
-footer{
+/* -------------------------------- */
+/* -------------------------------- */
+footer {
     display: flex;
     justify-content: space-between;
     padding: 30px;
 }
 
-.copy p{
+.copy p {
     width: 170px;
     font-size: 0.9rem;
     line-height: 30px;
 }
 
-.social{
+.social {
     display: flex;
 }
-.social div{
+
+.social div {
     margin: 0 20px;
 }
-.social .phone, .email, .social h3{
+
+.social .phone,
+.email,
+.social h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-size: 0.9rem;
     line-height: 20px;
 }
-.social .email a{
+
+.social .email a {
     text-decoration: none;
     color: black;
 }
-.social .email a:hover{
+
+.social .email a:hover {
     color: #0050FF;
     text-decoration: underline;
     text-shadow: 2px 2px 20px #0050FF;

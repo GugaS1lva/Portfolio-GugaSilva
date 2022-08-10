@@ -60,8 +60,8 @@ function Projetos() {
                     </div>
                     <div className="desc">
                         <p>
-                            Aqui ficam apenas três projetos que foram selecionados por terem funcionalidades distintas mas igualmente importantes para um Desenvolvedor. <br/>
-                            Esses três projetos serão subtituídos por novos conforme o avanço das minhas habilidades<br/>
+                            Aqui ficam apenas três projetos que foram selecionados por terem funcionalidades distintas mas igualmente importantes para um Desenvolvedor. <br />
+                            Esses três projetos serão subtituídos por novos conforme o avanço das minhas habilidades<br />
                             Caso deseje verificar todos os meus repositórios, é só clicar no OctoCat ao lado <a href="https://github.com/GugaS1lva?tab=repositories">🐙</a>
                         </p>
                     </div>
@@ -93,8 +93,8 @@ function Projetos() {
                                 <h3>Buscador de Usuários do GitHub</h3>
                             </div>
                             <p>
-                                Esse projeto foi feito com HTML, CSS e JavaScript. Nele eu aprimorei bastante o consumo de API's, a leitura de documentações e refatoração de código. <br/><br/>
-                                Se checar o código verá meu esforço em manter todas as variáves sendo reaproveitadas da maneira mais eficiente que pude pensar. <br/><br/>
+                                Esse projeto foi feito com HTML, CSS e JavaScript. Nele eu aprimorei bastante o consumo de API's, a leitura de documentações e refatoração de código. <br /><br />
+                                Se checar o código verá meu esforço em manter todas as variáves sendo reaproveitadas da maneira mais eficiente que pude pensar. <br /><br />
                                 Apesar de sua funcionalidade ser simples, implementa-la, evitando erros e tornando o código mais limpo possível que foi o verdadeiro desafio.
                             </p>
                         </div>
@@ -111,8 +111,8 @@ function Projetos() {
                                 <h3>Landingpage</h3>
                             </div>
                             <p>
-                                Esse projeto foi feito apenas com HTML e CSS. <br/><br/>
-                                O desafio pessoal dessa vez era criar essa Landingpage no tempo mais curto possível, desde que ficasse no ar e com o mínimo de erros de código possível. Levei uma noite para construíla do zero e sem supervisão. <br/><br/>
+                                Esse projeto foi feito apenas com HTML e CSS. <br /><br />
+                                O desafio pessoal dessa vez era criar essa Landingpage no tempo mais curto possível, desde que ficasse no ar e com o mínimo de erros de código possível. Levei uma noite para construíla do zero e sem supervisão. <br /><br />
                                 Alguns botões contém animações e na ultima seção tem espaço pra ser implantado validações de email com integração com backend.
                             </p>
                         </div>
