@@ -1,0 +1,114 @@
+.curriculumContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #E6DACE;
+    height: 2000vh;
+    padding: 200px 0 0px 0;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title .square{
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: #0050FF;
+    margin: 0 3px;
+}
+.title h2{
+    font-size: 2.1rem;
+    font-family: 'Poppins', sans-serif;
+    margin: 0 5px;
+}
+
+.experience{
+    width: 700px;
+}
+.experience .titleCV{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.experience .titleCV h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+.experience .titleCV a{
+    align-items: center;
+    background-color: #0050FF;
+    color: white;
+    font-weight: bolder;
+    padding: 10px 35px;
+    border-radius: 100px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.experience .titleCV a:hover{
+    background-color: #E6DACE;
+    color: black;
+    border: 2px solid #0050FF;
+    padding: 8px 33px;
+}
+
+.exampleCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 50px 0;
+    padding: 50px;
+    height: 350px;
+    box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.219);
+}
+.exampleCard .infos{
+    width: 200px;
+}
+.exampleCard .desc{
+    width: 350px;
+    height: 100%;
+}
+.exampleCard .infos strong{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #0050FF;
+}
+.exampleCard .infos span{
+    font-size: 1.1rem;
+    padding: 15px 0;
+    line-height: 40px;
+}
+.exampleCard .infos .titleUfal{
+    font-size: 1.2rem;
+    line-height: 25px;
+    padding: 15px 0;
+    display: block;
+}
+.exampleCard .infos p{
+    line-height: 30px;
+}
+.exampleCard .desc p{
+    line-height: 30px;
+}
+
+.formation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+}
+.formation h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+
+.skills{
+    display: flex;
+    background-color: white;
+    margin: 100px 0;
+    padding: 50px;
+    height: 350px;
+    box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.219);
+}

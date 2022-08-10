@@ -47,7 +47,7 @@ header nav ul li a{
 }
 
 /* -------------------------------- *//* -------------------------------- */
-main{
+.indexContainer{
     height: 100vh;
     padding: 150px 0 50px 0;
 
@@ -58,17 +58,13 @@ main{
     width: 98vw;
     height: 140vh;
 }
-main .centralCard{
+.indexContainer .centralCard{
     display: flex;
     width: 900px;
     height: 600px;
     background-color: white;
-
-    /* background: rgba(83, 34, 34, 0.1); rgba(255, 255, 255, 0.1); */
-    /* backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px); */
 }
-main .leftCard{
+.indexContainer .leftCard{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -76,38 +72,38 @@ main .leftCard{
     background-color: #F4ECE6;
     width: 40%;
     height: 100%;
-    box-shadow: -10px 12px 20px rgba(0, 0, 0, 0.219);
-    /* box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px; */
+    box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.219);
+
 }
-main .leftCard .leftInfoContainer{
+.indexContainer .leftCard .leftInfoContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-main .leftCard .leftInfoContainer img{
+.indexContainer .leftCard .leftInfoContainer img{
     width: 200px;
     height: 200px;
     border-radius: 100%;
     margin: 40px;
 }
-main .leftCard .leftInfoContainer strong{
+.indexContainer .leftCard .leftInfoContainer strong{
     font-size: 1.9rem;
     font-family: 'Poppins', sans-serif;
     line-height: 35px;
     padding-bottom: 25px;
     border-bottom: 2px solid #0050FF;
 }
-main .leftCard .leftInfoContainer span{
+.indexContainer .leftCard .leftInfoContainer span{
     font-size: 1.1rem;
     letter-spacing: 5px;
     padding: 35px;
 }
-main .leftCard .leftIconContainer{
+.indexContainer .leftCard .leftIconContainer{
     background-color: white;
     padding: 20px;
 }
 
-main .rightCard{
+.indexContainer .rightCard{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -115,15 +111,15 @@ main .rightCard{
     padding: 35px;
 }
 
-main .topInfoContainer h2{
+.indexContainer .topInfoContainer h2{
     font-family: 'Poppins', sans-serif;
     font-size: 6rem;
 }
-main .topInfoContainer h3{
+.indexContainer .topInfoContainer h3{
     font-size: 1.5rem;
     margin: -10px 0 40px 0;
 }
-main .buttonsContainer a{
+.indexContainer .buttonsContainer a{
     align-items: center;
     background-color: #0050FF;
     color: white;
@@ -133,14 +129,14 @@ main .buttonsContainer a{
     text-decoration: none;
     margin-right: 10px;
 }
-main .buttonsContainer a:hover{
+.indexContainer .buttonsContainer a:hover{
     background-color: white;
     color: black;
     border: 2px solid black;
     padding: 6px 23px;
 }
 
-main .botInfoContainer p{
+.indexContainer .botInfoContainer p{
     font-size: 1rem;
     line-height: 25px;
     margin: 0px 0 -6px 0;
@@ -172,7 +168,6 @@ footer{
     font-size: 0.9rem;
     line-height: 20px;
 }
-
 .social .email a{
     text-decoration: none;
     color: black;
