@@ -1,9 +1,17 @@
+import Head from "next/head"
 import Link from "next/link"
 
 function Contact() {
     return (
         <>
-            {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ HEADER ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
+            <Head>
+                <meta charset="UTF-8" />
+                <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <link ref="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" />
+                <link rel="shortcut icon" href="/images/tech-icon.png" type="image/x-icon" />
+                <title>Guga Silva | Portfólio</title>
+            </Head>
 
             <header>
                 <div className="me">
@@ -40,11 +48,51 @@ function Contact() {
                 </nav>
             </header>
 
-            {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ MAIN ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
+            <main className="contactContainer">
+                <div className="title">
+                    <div className="square"></div>
+                    <h2>Contato</h2>
+                </div>
+                {/* action="#" method="POST" */}
+                <form>
+                    <div className="inputContainer">
+                        <div className="nameContainer">
+                            <label for="iname">Nome <span clasName="requiredSymbol">*</span></label>
+                            <input type="text" name="name" id="iname" autoComplete="name" required />
+                        </div>
 
-            <>CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO -CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO -CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO -CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - CONTATO - </>
+                        <div className="additionalName">
+                            <label for="ilname">Sobrenome <span clasName="requiredSymbol">*</span></label>
+                            <input type="text" name="lname" id="ilname" autoComplete="additional-name" required />
+                        </div>
+                    </div>
 
-            {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ FOOTER ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
+                    <div className="inputContainer">
+                        <div>
+                            <label for="iemail">E-mail <span clasName="requiredSymbol">*</span></label>
+                            <input type="email" name="email" id="iemal" autocomplete="email" required />
+                        </div>
+                    </div>
+
+                    <div className="inputContainer">
+                        <div>
+                            <label for="isubject">Assunto</label>
+                            <input type="text" name="subject" id="isubject" />
+                        </div>
+                    </div>
+
+                    <div className="inputContainer">
+                        <div>
+                            <label for="imessage">Mensagem</label>
+                            <textarea name="message" id="imessage" cols="30" rows="10"></textarea>
+                        </div>
+                    </div>
+
+                    <div className="buttonContainer">
+                        <input type="submit" value="ENVIAR" />
+                    </div>
+                </form>
+            </main>
 
             <footer>
                 <div className="copy">

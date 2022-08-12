@@ -13,8 +13,6 @@ function Projetos() {
                 <title>Guga Silva | Portfólio</title>
             </Head>
 
-            {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ HEADER ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
-
             <header>
                 <div className="me">
                     <div className="square"></div>
@@ -50,8 +48,6 @@ function Projetos() {
                 </nav>
             </header>
 
-            {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ MAIN ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
-
             <main className="projectsContainer">
                 <section className="centralColumn">
                     <div className="title">
@@ -61,8 +57,8 @@ function Projetos() {
                     <div className="desc">
                         <p>
                             Aqui ficam apenas três projetos que foram selecionados por terem funcionalidades distintas mas igualmente importantes para um Desenvolvedor. <br />
-                            Esses três projetos serão subtituídos por novos conforme o avanço das minhas habilidades<br />
-                            Caso deseje verificar todos os meus repositórios, é só clicar no OctoCat ao lado <a href="https://github.com/GugaS1lva?tab=repositories">🐙</a>
+                            Esses três projetos serão subtituídos por novos conforme o avanço das minhas habilidades <br />
+                            Caso deseje verificar todos os meus repositórios, é só clicar no OctoCat ao lado <a href="https://github.com/GugaS1lva?tab=repositories" target="_blank">🐙</a>
                         </p>
                     </div>
 
@@ -93,8 +89,8 @@ function Projetos() {
                                 <h3>Buscador de Usuários do GitHub</h3>
                             </div>
                             <p>
-                                Esse projeto foi feito com HTML, CSS e JavaScript. Nele eu aprimorei bastante o consumo de API's, a leitura de documentações e refatoração de código. <br /><br />
-                                Se checar o código verá meu esforço em manter todas as variáves sendo reaproveitadas da maneira mais eficiente que pude pensar. <br /><br />
+                                Esse projeto foi feito com HTML, CSS e JavaScript. Nele eu aprimorei bastante as minhas habilidades em consumo de API's, em leitura de documentações e refatoração de código. <br /><br />
+                                Se checar o código verá meu esforço em manter todas as variáves sendo reaproveitadas da maneira mais eficiente que pude pensar, na época. <br /><br />
                                 Apesar de sua funcionalidade ser simples, implementa-la, evitando erros e tornando o código mais limpo possível que foi o verdadeiro desafio.
                             </p>
                         </div>
@@ -121,8 +117,6 @@ function Projetos() {
                     </div>
                 </section>
             </main>
-
-            {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ FOOTER ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
 
             <footer>
                 <div className="copy">

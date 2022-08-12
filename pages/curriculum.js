@@ -13,8 +13,6 @@ function Curriculo() {
                 <title>Guga Silva | Portfólio</title>
             </Head>
 
-            {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ HEADER ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
-
             <header>
                 <div className="me">
                     <div className="square"></div>
@@ -49,8 +47,6 @@ function Curriculo() {
                     </ul>
                 </nav>
             </header>
-
-            {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ MAIN ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
 
             <main className="curriculumContainer">
                 <section className="centralColumn">
@@ -139,9 +135,6 @@ function Curriculo() {
                                     <div className="square"></div>
                                     <p>HTML5</p>
                                 </div>
-                                <div className="skillIcon">
-                                    {/*  */}
-                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <li>Semântica</li>
@@ -156,9 +149,6 @@ function Curriculo() {
                                 <div class="skillTitle">
                                     <div className="square"></div>
                                     <p>CSS3</p>
-                                </div>
-                                <div className="skillIcon">
-                                    {/*  */}
                                 </div>
                                 <div className="skillDesc">
                                     <ul>
@@ -180,9 +170,6 @@ function Curriculo() {
                                 <div class="skillTitle">
                                     <div className="square"></div>
                                     <p>JAVASCRIPT</p>
-                                </div>
-                                <div className="skillIcon">
-                                    {/*  */}
                                 </div>
                                 <div className="skillDesc">
                                     <ul>
@@ -207,9 +194,6 @@ function Curriculo() {
                                     <div className="square"></div>
                                     <p>FRAMEWORK CSS</p>
                                 </div>
-                                <div className="skillIcon">
-                                    {/*  */}
-                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <li>Bootstrapp</li>
@@ -226,9 +210,6 @@ function Curriculo() {
                                     <div className="square"></div>
                                     <p>VERSIONAMENTO DE CÓDIGO</p>
                                 </div>
-                                <div className="skillIcon">
-                                    {/*  */}
-                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <li>Git</li>
@@ -243,9 +224,6 @@ function Curriculo() {
                                     <div className="square"></div>
                                     <p>GERENCIADOR DE PACOTES</p>
                                 </div>
-                                <div className="skillIcon">
-                                    {/*  */}
-                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <li>NPM</li>
@@ -258,9 +236,6 @@ function Curriculo() {
                                 <div class="skillTitle">
                                     <div className="square"></div>
                                     <p>BIBLIOTECAS/<br />FRAMEWORKS JS</p>
-                                </div>
-                                <div className="skillIcon">
-                                    {/*  */}
                                 </div>
                                 <div className="skillDesc">
                                     <ul>
@@ -280,9 +255,6 @@ function Curriculo() {
                                     <div className="square"></div>
                                     <p>TESTES</p>
                                 </div>
-                                <div className="skillIcon">
-                                    {/*  */}
-                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <mark>
@@ -300,9 +272,6 @@ function Curriculo() {
                                 <div class="skillTitle">
                                     <div className="square"></div>
                                     <p>SSR</p>
-                                </div>
-                                <div className="skillIcon">
-                                    {/*  */}
                                 </div>
                                 <div className="skillDesc">
                                     <ul>
@@ -322,9 +291,6 @@ function Curriculo() {
                                     <div className="square"></div>
                                     <p>BUNDLERS</p>
                                 </div>
-                                <div className="skillIcon">
-                                    {/*  */}
-                                </div>
                                 <div className="skillDesc">
                                     <ul>
                                         <mark>
@@ -343,8 +309,6 @@ function Curriculo() {
                     </section>
                 </section>
             </main>
-
-            {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ FOOTER ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
 
             <footer>
                 <div className="copy">

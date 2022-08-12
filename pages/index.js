@@ -1,10 +1,9 @@
-import { library } from "@fortawesome/fontawesome-svg-core"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { fas } from "@fortawesome/free-solid-svg-icons"
+// import { library } from "@fortawesome/fontawesome-svg-core"
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import { fas } from "@fortawesome/free-solid-svg-icons"
+// library.add(fas)
 import Head from "next/head"
 import Link from "next/link"
-
-library.add(fas)
 
 function Home() {
     return (
@@ -17,8 +16,6 @@ function Home() {
                 <link rel="shortcut icon" href="/images/tech-icon.png" type="image/x-icon" />
                 <title>Guga Silva | Portfólio</title>
             </Head>
-
-            {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ HEADER ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
 
             <header>
                 <div className="me">
@@ -54,8 +51,6 @@ function Home() {
                     </ul>
                 </nav>
             </header>
-
-            {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ MAIN ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
 
             <main className="indexContainer">
                 <section className="centralCard">
@@ -99,8 +94,6 @@ function Home() {
                     </div>
                 </section>
             </main>
-
-            {/*  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  ↓↓ FOOTER ↓↓  */}{/*  */}{/*  */}{/*  */}{/*  */}{/*  */}
 
             <footer>
                 <div className="copy">
