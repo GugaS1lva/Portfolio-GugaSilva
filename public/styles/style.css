@@ -57,7 +57,6 @@ header nav ul li a {
 /* -------------------------------- */
 /* -------------------------------- */
 .indexContainer {
-    height: 100vh;
     padding: 150px 0 50px 0;
 
     display: flex;
@@ -119,6 +118,20 @@ header nav ul li a {
     padding: 20px;
 }
 
+.indexContainer .leftCard .leftIconContainer svg {
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.indexContainer .leftCard .leftIconContainer a {
+    color: black;
+}
+
+.indexContainer .leftCard .leftIconContainer a:hover {
+    color: #0050FF;
+    border-bottom: 2px solid #0050FF;
+}
+
 .indexContainer .rightCard {
     display: flex;
     flex-direction: column;
@@ -166,7 +179,7 @@ header nav ul li a {
 footer {
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 20px;
 }
 
 .copy p {
@@ -196,10 +209,29 @@ footer {
 .social .email a {
     text-decoration: none;
     color: black;
+    border-bottom: 1px solid white;
 }
 
 .social .email a:hover {
     color: #0050FF;
-    text-decoration: underline;
+    border-bottom: 1px solid #0050FF;
     text-shadow: 2px 2px 20px #0050FF;
+}
+
+.social .network .network-container {
+    padding: 20px;
+}
+
+.social .network .network-container svg {
+    font-size: 20px;
+    margin: 0 5px;
+}
+
+.social .network .network-container a {
+    color: black;
+}
+
+.social .network .network-container a:hover {
+    color: #0050FF;
+    border-bottom: 2px solid #0050FF;
 }

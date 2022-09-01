@@ -1,0 +1,117 @@
+@media(max-width: 1000px) {
+    .indexContainer {
+        padding: 150px 0 50px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: linear-gradient(to top, #E6DACE 69%, white 69%);
+        width: 98vw;
+        height: 200vh;
+    }
+
+    .indexContainer .centralCard {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .indexContainer .leftCard {
+        width: 100%;
+    }
+
+    .indexContainer .leftCard .leftIconContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .indexContainer .leftCard .leftIconContainer .iconsContainer {
+        width: 180px;
+        border-bottom: 2px solid rgb(73, 72, 72);
+        padding-bottom: 10px;
+    }
+
+    .indexContainer .rightCard {
+        width: 100%;
+        background-color: white;
+        box-shadow: -10px 15px 10px rgba(0, 0, 0, 0.219);
+    }
+
+    .indexContainer .rightCard .topInfoContainer {
+        margin: 0px 0 50px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 915px) {
+    header .me {
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+    }
+
+    header .me span {
+        padding-left: 22px;
+    }
+
+    footer {
+        padding: 20px 20px 0 20px;
+    }
+
+    footer .social {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: end;
+        width: 450px;
+    }
+
+    .social .network {
+        margin-right: 45px;
+    }
+
+    .social .network .network-container {
+        margin-top: -10px;
+    }
+
+    .social .email a {
+        margin: 5px 0 15px 0;
+    }
+}
+
+@media(max-width: 795px) {
+    header nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 220px;
+    }
+
+    header nav ul li {
+        margin-bottom: 10px;
+    }
+
+    header nav ul li:last-child {
+        margin-left: 18px;
+    }
+}
+
+@media(max-width: 670px) {
+    footer .social {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .social .email {
+        margin-top: 20px;
+    }
+
+    footer .social .network {
+        margin: 0;
+    }
+}

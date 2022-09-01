@@ -1,7 +1,4 @@
-// import { library } from "@fortawesome/fontawesome-svg-core"
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import { fas } from "@fortawesome/free-solid-svg-icons"
-// library.add(fas)
+import { FaGithub, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa"
 import Head from "next/head"
 import Link from "next/link"
 
@@ -62,9 +59,20 @@ function Home() {
                         </div>
 
                         <div className="leftIconContainer">
-                            {/* <FontAwesomeIcon icon="coffee" />
-                            <FontAwesomeIcon icon="fa-solid fa-envelope" />
-                            <FontAwesomeIcon icon="fa-solid fa-paper-plane" /> */}
+                            <div className="iconsContainer">
+                                <Link href="https://www.linkedin.com/in/guga-silva-124706233" target="_blank" >
+                                    <a target="_blank"><FaLinkedinIn /></a>
+                                </Link>
+                                <Link href="https://www.github.com/GugaS1lva" target={"_blank"} >
+                                    <a target="_blank"><FaGithub /></a>
+                                </Link>
+                                <Link href="https://wa.me/558281828018" target="_blank" >
+                                    <a target="_blank"><FaWhatsapp /></a>
+                                </Link>
+                                <Link href="https://www.instagram.com/50repolhoscozidos/" target="_blank" >
+                                    <a target="_blank"><FaInstagram /></a>
+                                </Link>
+                            </div>
                         </div>
                     </div>
 
@@ -117,6 +125,20 @@ function Home() {
 
                     <div className="network">
                         <h3>Redes Sociais</h3>
+                        <div className="network-container">
+                            <Link href="https://www.linkedin.com/in/guga-silva-124706233">
+                                <a target="_blank"><FaLinkedinIn /></a>
+                            </Link>
+                            <Link href="https://www.github.com/GugaS1lva">
+                                <a target="_blank"><FaGithub /></a>
+                            </Link>
+                            <Link href="https://wa.me/558281828018" target="_blank" >
+                                <a target="_blank"><FaWhatsapp /></a>
+                            </Link>
+                            <Link href="https://www.instagram.com/50repolhoscozidos/">
+                                <a target="_blank"><FaInstagram /></a>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </footer>

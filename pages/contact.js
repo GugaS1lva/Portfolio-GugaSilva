@@ -1,3 +1,4 @@
+import { FaGithub, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa"
 import Head from "next/head"
 import Link from "next/link"
 
@@ -111,11 +112,25 @@ function Contact() {
 
                     <div className="email">
                         <h3>Email</h3>
-                        <a href="mailto:contatogustavosilva017@outlook.com" target="_blank">contatogustavosilva017@outlook.com</a>
+                        <a href="mailto:contatogustavosilva017@outlook.com">contatogustavosilva017@outlook.com</a>
                     </div>
 
                     <div className="network">
                         <h3>Redes Sociais</h3>
+                        <div className="network-container">
+                            <Link href="https://www.linkedin.com/in/guga-silva-124706233">
+                                <a target="_blank"><FaLinkedinIn /></a>
+                            </Link>
+                            <Link href="https://www.github.com/GugaS1lva">
+                                <a target="_blank"><FaGithub /></a>
+                            </Link>
+                            <Link href="https://wa.me/558281828018" target="_blank" >
+                                <a target="_blank"><FaWhatsapp /></a>
+                            </Link>
+                            <Link href="https://www.instagram.com/50repolhoscozidos/">
+                                <a target="_blank"><FaInstagram /></a>
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </footer>
