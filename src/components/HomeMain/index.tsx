@@ -1,22 +1,31 @@
 import Link from 'next/link'
 import React from 'react'
-import { TemplateHomeContainer } from './style'
 import { FaGithub, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
+import { 
+  TemplateHomeContainer, 
+  IndexContainer,
+  CentralCard,
+  LeftCard,
+  LeftInfoContainer,
+  LeftIconContainer,
+  IconsContainer,
+  RightCard,
+} from './style'
 
 export const HomeMain = () => {
   return (
     <TemplateHomeContainer>
-      <main className='mt-[220px] mb-[110px]'>
-        <section className='flex w-[900px] h-[600px] bg-white'>
-          <div className='flex flex-col justify-between text-center bg-[#F4ECE6] w-[40%] h-[100%] shadow-[-10px_15px_10px_#00000038]'>
-            <div className='flex flex-col items-center'>
+      <IndexContainer>
+        <CentralCard>
+          <LeftCard>
+            <LeftInfoContainer>
               <img className='w-[200px] h-[200px] rounded-full m-10' src="/images/perfil-clone.jpeg" alt="#" />
               <strong className='text-3xl leading-9 pb-6 border-[#0050FF] border-solid border-b-2 font-poppins'>Gustavo<br /> Silva</strong>
               <span className='text-lg tracking-[5px] mt-8'>DESENVOLVEDOR WEB</span>
-            </div>
+            </LeftInfoContainer>
 
-            <div className='bg-white p-5 pb-3'>
-              <div className='flex justify-center'>
+            <LeftIconContainer>
+              <IconsContainer>
                 <Link href="https://www.linkedin.com/in/guga-silva-124706233" target="_blank" >
                   <a className='text-black pb-2 hover:pb-0 hover:text-[#0050FF] hover:border-[#0050FF] hover:border-solid hover:border-b-2' target="_blank"><FaLinkedinIn className='text-[25px] ml-[10px] mr-[10px]' /></a>
                 </Link>
@@ -29,11 +38,11 @@ export const HomeMain = () => {
                 <Link href="https://www.instagram.com/50repolhoscozidos/" target="_blank" >
                   <a className='text-black pb-2 hover:pb-0 hover:text-[#0050FF] hover:border-[#0050FF] hover:border-solid hover:border-b-2' target="_blank"><FaInstagram className='text-[25px] ml-[10px] mr-[10px]' /></a>
                 </Link>
-              </div>
-            </div>
-          </div>
+              </IconsContainer>
+            </LeftIconContainer>
+          </LeftCard>
 
-          <div className='flex flex-col justify-between w-[58%] p-9'>
+          <RightCard>
             <div>
               <h2 className='font-poppins font-bold text-8xl'>Olá</h2>
 
@@ -57,9 +66,9 @@ export const HomeMain = () => {
                 Meu objetivo é me tornar um profissional competente, disciplinado e conhecido na área de tecnologia.
               </p>
             </div>
-          </div>
-        </section>
-      </main>
+          </RightCard>
+        </CentralCard>
+      </IndexContainer>
     </TemplateHomeContainer>
   )
 }
