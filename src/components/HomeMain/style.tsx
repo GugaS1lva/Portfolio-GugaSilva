@@ -2,7 +2,7 @@ import tw from "tailwind-styled-components/dist/tailwind";
 
 export const TemplateHomeContainer = tw.div``
 
-export const IndexContainer = tw.main`
+export const HomeContent = tw.main`
     mt-[220px] mb-[110px]
 `
 

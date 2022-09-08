@@ -8,10 +8,12 @@ export const ProjectsMain = () => {
         <TemplateProjectsContainer>
             <main className="flex justify-center bg-[#E6DACE] mt-[200px]">
                 <section className="flex flex-col items-center mb-[100px]">
+                    {/* ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓  ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓ */}
                     <div className="flex items-center">
                         <FaSquareFull className="text-xl mr-2 text-[#0050FF]" />
                         <h2 className="font-poppins font-bold text-4xl">Projetos</h2>
                     </div>
+
                     <div className="text-center w-[850px] mt-8 text-xl">
                         <p>
                             Aqui ficam apenas três projetos que foram selecionados por terem funcionalidades distintas mas igualmente importantes para um Desenvolvedor. <br />

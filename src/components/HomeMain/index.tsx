@@ -3,7 +3,7 @@ import React from 'react'
 import { FaGithub, FaInstagram, FaLinkedinIn, FaWhatsapp } from 'react-icons/fa'
 import { 
   TemplateHomeContainer, 
-  IndexContainer,
+  HomeContent,
   CentralCard,
   LeftCard,
   LeftInfoContainer,
@@ -15,7 +15,7 @@ import {
 export const HomeMain = () => {
   return (
     <TemplateHomeContainer>
-      <IndexContainer>
+      <HomeContent>
         <CentralCard>
           <LeftCard>
             <LeftInfoContainer>
@@ -68,7 +68,7 @@ export const HomeMain = () => {
             </div>
           </RightCard>
         </CentralCard>
-      </IndexContainer>
+      </HomeContent>
     </TemplateHomeContainer>
   )
 }

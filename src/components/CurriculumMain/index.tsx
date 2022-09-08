@@ -1,25 +1,33 @@
 import Link from 'next/link'
 import React from 'react'
-import { TemplateCurriculumContainer } from './style'
 import { FaSquareFull } from "react-icons/fa";
+import {
+  TemplateCurriculumContainer,
+  CurriculumContent,
+  CentralColumn,
+  Experience,
+  CVContain,
+} from './style'
 
 export const CurriculumMain = () => {
   return (
     <TemplateCurriculumContainer>
-      <main className="mt-[200px] mb-[110px]">
-        <section className="flex flex-col items-center">
-          <div className="flex items-center justify-center">
-            <FaSquareFull className="text-xl text-[#0050FF]" />
-            <h2 className='text-4xl font-bold font-poppins ml-2'>Currículo</h2>
+      <CurriculumContent>
+        <CentralColumn>
+          {/* ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓  ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓ */}
+          <div className="flex items-center">
+            <FaSquareFull className="text-xl mr-2 text-[#0050FF]" />
+            <h2 className='font-poppins font-bold text-4xl'>Currículo</h2>
           </div>
 
-          <section className="w-[700px]">
-            <div className="flex items-center justify-between mt-24">
+          <Experience>
+            <CVContain>
+              {/* ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓  ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓ */}
               <h3 className='font-poppins font-bold text-2xl'>Experiência</h3>
               <Link href="/cv/curriculo-dev-gugasilva.zip" download="curriculo-dev-gugasilva.pdf" type="application/zip" target="_blank">
                 <a className='items-center bg-[#0050FF] text-white font-bold py-[8px] px-[35px] rounded-full hover:bg-[#E6DACE] hover:text-black hover:py-[6px] hover:px-[33px] hover:border-2 hover:border-solid hover:border-[#0050FF]'>BAIXAR CV</a>
               </Link>
-            </div>
+            </CVContain>
 
             <div className="flex justify-between items-center bg-white my-14 p-14 shadow-[-10px_15px_10px_#00000038]">
               <div className="w-[200px]">
@@ -56,7 +64,7 @@ export const CurriculumMain = () => {
                 </p>
               </div>
             </div>
-          </section>
+          </Experience>
 
           <section className="flex flex-col mt-12">
             <h4 className='font-poppins text-2xl font-bold'>Formação Acadêmica</h4>
@@ -265,8 +273,8 @@ export const CurriculumMain = () => {
               </div>
             </div>
           </section>
-        </section>
-      </main>
+        </CentralColumn>
+      </CurriculumContent>
     </TemplateCurriculumContainer>
   )
 }
