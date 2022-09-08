@@ -21,7 +21,7 @@ export const ProjectsMain = () => {
                         </p>
                     </div>
 
-                    <div className="flex bg-white my-[50px] w-[900px] h-[415px] shadow-lg shadow-[#0050FF]/100">
+                    <div className="flex bg-white my-[50px] w-[900px] h-[415px] shadow-[-10px_15px_10px_#00000038]">
                         <div className="pt-[50px]">
                             <div className="border-l-[10px] border-l-[#0050FF] pl-[30px]">
                                 <Link href="https://github.com/GugaS1lva/Portfolio-GugaSilva">
@@ -41,7 +41,7 @@ export const ProjectsMain = () => {
                         <div className="block bg-[url('/images/portfolio.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
                     </div>
 
-                    <div className="flex bg-white my-[50px] w-[900px] h-[415px] shadow-lg shadow-[#0050FF]/100">
+                    <div className="flex bg-white my-[50px] w-[900px] h-[415px] shadow-[-10px_15px_10px_#00000038]">
                         <div className="pt-[50px]">
                             <div className="border-l-[10px] border-l-[#0050FF] pl-[30px]">
                                 <Link href="https://github.com/GugaS1lva/GitHub-API_Profile.Search">
@@ -61,7 +61,7 @@ export const ProjectsMain = () => {
                         <div className="block bg-[url('/images/github.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
                     </div>
 
-                    <div className="flex bg-white my-[50px] w-[900px] h-[415px] shadow-lg shadow-[#0050FF]/100">
+                    <div className="flex bg-white my-[50px] w-[900px] h-[415px] shadow-[-10px_15px_10px_#00000038]">
                         <div className="pt-[50px]">
                             <div className="border-l-[10px] border-l-[#0050FF] pl-[30px]">
                                 <Link href="https://github.com/GugaS1lva/Fr.Mentor-08--Fylo.Dark_Master">

@@ -8,7 +8,7 @@ export const HomeMain = () => {
     <TemplateHomeContainer>
       <main className='mt-[220px] mb-[110px]'>
         <section className='flex w-[900px] h-[600px] bg-white'>
-          <div className='flex flex-col justify-between text-center bg-[#F4ECE6] w-[40%] h-[100%] shadow-lg shadow-[#0050FF]/100'>
+          <div className='flex flex-col justify-between text-center bg-[#F4ECE6] w-[40%] h-[100%] shadow-[-10px_15px_10px_#00000038]'>
             <div className='flex flex-col items-center'>
               <img className='w-[200px] h-[200px] rounded-full m-10' src="/images/perfil-clone.jpeg" alt="#" />
               <strong className='text-3xl leading-9 pb-6 border-[#0050FF] border-solid border-b-2 font-poppins'>Gustavo<br /> Silva</strong>

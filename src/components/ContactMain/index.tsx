@@ -11,7 +11,7 @@ export const ContactMain = () => {
                         <FaSquareFull className="text-xl text-[#0050FF]" />
                         <h2 className='text-4xl font-bold font-poppins ml-2'>Contato</h2>
                     </div>
-                    <form className='font-bold text-sm bg-white py-[50px] px-[70px] my-[100px] w-[700px] shadow-lg shadow-[#0050FF]/100'>
+                    <form className='font-bold text-sm bg-white py-[50px] px-[70px] my-[100px] w-[700px] shadow-[-10px_15px_10px_#00000038]'>
                         <div className="flex mb-[60px] w-full">
                             <div className="nameContainer w-full mr-5">
                                 <label className='after:content-["*"] after:text-[#0050FF] after:text-lg after:ml-1' htmlFor="iname">Nome</label>

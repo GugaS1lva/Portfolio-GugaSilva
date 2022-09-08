@@ -21,7 +21,7 @@ export const CurriculumMain = () => {
               </Link>
             </div>
 
-            <div className="flex justify-between items-center bg-white my-14 p-14 shadow-lg shadow-[#0050FF]/100">
+            <div className="flex justify-between items-center bg-white my-14 p-14 shadow-[-10px_15px_10px_#00000038]">
               <div className="w-[200px]">
                 <strong className='font-poppins text-xl text-[#0050FF]'>2022 - Atual</strong> <br />
                 <span className='text-lg leading-10'>CARGO</span>
@@ -39,7 +39,7 @@ export const CurriculumMain = () => {
               </div>
             </div>
 
-            <div className="flex justify-between items-center bg-white my-14 p-14 shadow-lg shadow-[#0050FF]/100">
+            <div className="flex justify-between items-center bg-white my-14 p-14 shadow-[-10px_15px_10px_#00000038]">
               <div className="w-[200px]">
                 <strong className='font-poppins text-xl text-[#0050FF]'>2021 - 2022</strong> <br />
                 <span className='text-lg leading-10'>CARGO</span>
@@ -61,7 +61,7 @@ export const CurriculumMain = () => {
           <section className="flex flex-col mt-12">
             <h4 className='font-poppins text-2xl font-bold'>Formação Acadêmica</h4>
 
-            <div className="flex justify-between items-center bg-white my-14 p-14 shadow-lg shadow-[#0050FF]/100">
+            <div className="flex justify-between items-center bg-white my-14 p-14 shadow-[-10px_15px_10px_#00000038]">
               <div className="w-[200px]">
                 <strong className='font-poppins text-xl text-[#0050FF]'>
                   2022 - Atual <br />
@@ -84,11 +84,11 @@ export const CurriculumMain = () => {
             </div>
           </section>
 
-          <section className="flex flex-col bg-white my-[100px] p-[50px] shadow-lg shadow-[#0050FF]/100">
+          <section className="flex flex-col bg-white my-[100px] p-[50px] shadow-[-10px_15px_10px_#00000038]">
             <h4 className='font-poppins font-bold text-3xl mb-[20px] '>Habilidades Técnicas</h4>
 
             <div className="flex flex-wrap w-[700px] justify-center">
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-lg shadow-[#0050FF]/100">
+              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
                 <div className="flex items-center">
                   <div className="square"></div>
                   <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">HTML5</p>
@@ -103,7 +103,7 @@ export const CurriculumMain = () => {
                 </div>
               </div>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-lg shadow-[#0050FF]/100">
+              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
                 <div className="flex items-center">
                   <div className="square"></div>
                   <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">CSS3</p>
@@ -124,7 +124,7 @@ export const CurriculumMain = () => {
                 </div>
               </div>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-lg shadow-[#0050FF]/100">
+              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
                 <div className="flex items-center">
                   <div className="square"></div>
                   <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">JAVASCRIPT</p>
@@ -147,7 +147,7 @@ export const CurriculumMain = () => {
                 </div>
               </div>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-lg shadow-[#0050FF]/100">
+              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
                 <div className="flex items-center">
                   <div className="square"></div>
                   <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">FRAMEWORK CSS</p>
@@ -163,7 +163,7 @@ export const CurriculumMain = () => {
                 </div>
               </div>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-lg shadow-[#0050FF]/100">
+              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
                 <div className="flex items-center">
                   <div className="square"></div>
                   <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">VERSIONAMENTO DE CÓDIGO</p>
@@ -177,7 +177,7 @@ export const CurriculumMain = () => {
                 </div>
               </div>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-lg shadow-[#0050FF]/100">
+              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
                 <div className="flex items-center">
                   <div className="square"></div>
                   <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">GERENCIADOR DE PACOTES</p>
@@ -190,7 +190,7 @@ export const CurriculumMain = () => {
                 </div>
               </div>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-lg shadow-[#0050FF]/100">
+              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
                 <div className="flex items-center">
                   <div className="square"></div>
                   <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">BIBLIOTECAS/<br />FRAMEWORKS JS</p>
@@ -208,7 +208,7 @@ export const CurriculumMain = () => {
                 </div>
               </div>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-lg shadow-[#0050FF]/100">
+              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
                 <div className="flex items-center">
                   <div className="square"></div>
                   <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">TESTES</p>
@@ -226,7 +226,7 @@ export const CurriculumMain = () => {
                 </div>
               </div>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-lg shadow-[#0050FF]/100">
+              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
                 <div className="flex items-center">
                   <div className="square"></div>
                   <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">SSR</p>
@@ -244,7 +244,7 @@ export const CurriculumMain = () => {
                 </div>
               </div>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-lg shadow-[#0050FF]/100">
+              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
                 <div className="flex items-center">
                   <div className="square"></div>
                   <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">BUNDLERS</p>
