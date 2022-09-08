@@ -50,10 +50,11 @@ export const HomeMain = () => {
             </div>
 
             <div>
-              <p>
-                Olá, meu nome é Gustavo Antonio da Silva. Sou pró-ativo, direto e dinâmico. Capaz de demonstrar uma sociabilidade bastante atraente, dependendo do que a situação exigir.
+              <p className='mt-7'>
+                Sou um Desenvolvedor Frontend Júnior, ambicioso, hiperfocado e buscando crescer na área. Sempre fui um estudante/pesquisador autodidata em várias áreas (muitas colho benefícios até hoje) mas agora estou apontando tudo que tenho e me dedicando ao máximo ao ramo digital.
                 <br /><br />
-                Tenho muitos objetivos e posso comprometer-me para alcançá-los. Procuro manter uma posição de dominância tanto em termos de autoridade pessoal e controle quanto no âmbito social. Gosto de sentir que sou apreciado e respeitado pelos outros.
+                Atualmente estou estudando desenvolvimento frontend e algumas outras tecnologias que complementam esse processo, como HTML5, CSS3, JavaScript, TypeScript, ReactJS, NextJS, NodeJS, Git e GitHub, alguns Frameworks CSS como Tailwind e Bootstrap e Testes de Software com Jest.
+                Meu objetivo é me tornar um profissional competente, disciplinado e conhecido na área de tecnologia.
               </p>
             </div>
           </div>
