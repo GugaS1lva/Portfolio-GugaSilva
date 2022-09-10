@@ -9,9 +9,9 @@ export default function Home() {
     <HomeContainer>
       <MyHead />
 
-      <Header />
+      {/* <Header /> */}
       <HomeMain />
-      <Footer />
+      {/* <Footer /> */}
     </HomeContainer>
   )
 }
