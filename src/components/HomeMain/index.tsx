@@ -44,7 +44,7 @@ export const HomeMain = () => {
 
           <RightCard>
             <div>
-              <h2 className='font-poppins font-bold text-8xl'>Olá</h2>
+              <h2 className='font-poppins font-bold text-8xl pt-[40px]'>Olá</h2>
 
               <h3 className='text-2xl mt-5 mb-10 font-bold'>Meu perfil e meus projetos</h3>
 
@@ -59,7 +59,7 @@ export const HomeMain = () => {
             </div>
 
             <div>
-              <p className='mt-7'>
+              <p className='mt-7 px-[10px] pb-[30px] text-start'>
                 Sou um Desenvolvedor Frontend Júnior, ambicioso, hiperfocado e buscando crescer na área. Sempre fui um estudante/pesquisador autodidata em várias áreas (muitas colho benefícios até hoje) mas agora estou apontando tudo que tenho e me dedicando ao máximo ao ramo digital.
                 <br /><br />
                 Atualmente estou estudando desenvolvimento frontend e algumas outras tecnologias que complementam esse processo, como HTML5, CSS3, JavaScript, TypeScript, ReactJS, NextJS, NodeJS, Git e GitHub, alguns Frameworks CSS como Tailwind e Bootstrap e Testes de Software com Jest.

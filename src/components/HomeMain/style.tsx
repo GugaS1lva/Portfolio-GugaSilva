@@ -1,24 +1,26 @@
 import tw from "tailwind-styled-components/dist/tailwind";
 
-export const TemplateHomeContainer = tw.div``
+export const TemplateHomeContainer = tw.div`
+    lg:mb-[0px]
+    sm:mb-[-650px]
+    mb-[-750px]
+`
 
 export const HomeContent = tw.main`
     2xl:
     xl: xl:w-[1100px]
     lg: lg:w-[900px]
-    md: md:w-[700px]
-    sm: sm:w-[600px]
-    bg-white w-[340px] mt-[150px] mb-[100px]
+    md:w-[700px] md:mb-[150px]
+    sm:w-[600px] sm:mb-[250px]
+    bg-white w-[340px] mt-[150px] mb-[0px]
 `
 
 export const CentralCard = tw.section`
-    lg:flex 
-    text-center h-[600px]
+    lg:flex
 `
 
 export const LeftCard = tw.div`
-    lg:shadow-[-10px_15px_10px_#00000038]
-    bg-[#F4ECE6] flex flex-col justify-between 
+    bg-[#F4ECE6] flex flex-col justify-between text-center shadow-[-10px_15px_10px_#00000038]
 `
 
 export const LeftInfoContainer = tw.div`
@@ -38,7 +40,7 @@ export const IconsContainer = tw.div`
 `
 
 export const RightCard = tw.div`
-    lg:pt-0 lg:max-w-[700px]
-    sm:
-    bg-white pt-[50px] p-[35px]
+    lg:max-w-[700px] lg:px-[50px] lg:text-start lg:shadow-none
+    sm:p-[50px] sm:pt-0 
+    bg-white pt-0 text-center px-[25px] shadow-[-10px_15px_10px_#00000038]
 `
