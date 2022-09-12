@@ -31,9 +31,10 @@ export const CurriculumMain = () => {
           <Experience>
             <CVContain>
               {/* ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓  ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓ */}
-              <h3 className='font-poppins font-bold text-2xl'>Experiência</h3>
+              <h3 className='font-poppins font-bold text-2xl mr-4'>Experiência</h3>
+
               <Link href="/cv/curriculo-dev-gugasilva.zip" download="curriculo-dev-gugasilva.pdf" type="application/zip" target="_blank">
-                <a className='items-center bg-[#0050FF] text-white font-bold py-[8px] px-[35px] rounded-full hover:bg-[#E6DACE] hover:text-black hover:py-[6px] hover:px-[33px] hover:border-2 hover:border-solid hover:border-[#0050FF]'>BAIXAR CV</a>
+                <a className='ml-4 items-center bg-[#0050FF] text-white font-bold py-[8px] px-[35px] rounded-full hover:bg-[#E6DACE] hover:text-black hover:py-[6px] hover:px-[33px] hover:border-2 hover:border-solid hover:border-[#0050FF]'>BAIXAR CV</a>
               </Link>
             </CVContain>
 
@@ -89,7 +90,7 @@ export const CurriculumMain = () => {
                 <p>Maceió - AL</p>
               </Infos>
 
-              <div className="w-[390px] h-[100%]">
+              <div className='w-[300px] border-t-2 border-gray-200 sm:border-none mt-6 pt-1'>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dignissimos doloribus nobis amet, eaque repellat magnam asperiores vel, Accusamus, repudiandae. numquam modi optio.
                   <br /><br />
