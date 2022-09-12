@@ -7,10 +7,8 @@ export const HomeContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: green;
-
 
     @media(max-width: 700px){
-        background: linear-gradient(to top, #E6DACE 60%, white 60%);
+        background: linear-gradient(to top, #E6DACE 80%, white 80%);
     }
 `

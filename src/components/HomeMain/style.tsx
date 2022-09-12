@@ -8,7 +8,7 @@ export const HomeContent = tw.main`
     lg: lg:w-[900px]
     md: md:w-[700px]
     sm: sm:w-[600px]
-    bg-white w-[340px] my-[150px]
+    bg-white w-[340px] mt-[150px] mb-[100px]
 `
 
 export const CentralCard = tw.section`

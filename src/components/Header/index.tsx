@@ -29,7 +29,7 @@ export const Header = () => {
                     </button>
 
                     <div className={`${showMenuMobile ? '' : 'hidden'} lg:block lg:w-auto`}>
-                        <ul className="flex flex-col items-center justify-center py-1 rounded-lg lg:flex-row lg:text-sm lg:bg-white">
+                        <ul className="flex flex-col items-center justify-center py-1 rounded-lg lg:flex-row lg:text-sm lg:bg-white bg-white">
                             <li className='pb-5'>
                                 <Link href="/">
                                     <a className='font-normal text-black uppercase text-sm hover:text-[#0050FF] px-4 py-2]'>sobre mim</a>

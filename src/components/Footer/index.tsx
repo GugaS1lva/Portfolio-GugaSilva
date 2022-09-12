@@ -15,27 +15,28 @@ export const Footer = () => {
     <TemplateFooterContainer>
       <CopyContainer>
         <Copy>
-          © 2022 by Gustavo Silva.
-          All rights reserved.
+          <span>© 2022</span>
+          <span>by Gustavo Silva.</span>
+          <span>All rights reserved.</span>
         </Copy>
       </CopyContainer>
 
       <SocialContainer>
         {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
-        <div className='flex flex-col items-center ml-4 mr-4'>
+        <div className=' flex flex-col items-center m-4'>
           <h3 className='font-bold text-sm'>Email</h3>
           <a className='border-b-[1px] border-transparent hover:border-[#0050FF] hover:text-[#0050FF]' href="mailto:contatogustavosilva017@outlook.com">contatogustavosilva017@outlook.com</a>
         </div>
 
         {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
-        <div className='flex flex-col items-center ml-4 mr-4'>
+        <div className='flex flex-col items-center mb-4 mx-4'>
           <h3 className='font-bold text-sm'>Telefone</h3>
           <span>(82) 9 8752-4230</span>
           <span>(82) 9 8182-8018</span>
         </div>
 
         {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
-        <div className='flex flex-col items-center ml-4 mr-4'>
+        <div className='flex flex-col items-center m-4'>
           <h3 className='font-bold text-sm'>Redes Sociais</h3>
           <div className='flex p-5 items-center justify-center'>
             <Link href="https://www.linkedin.com/in/guga-silva-124706233">

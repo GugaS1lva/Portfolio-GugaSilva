@@ -7,6 +7,14 @@ import {
   CentralColumn,
   Experience,
   CVContain,
+  ExampleCard,
+  Infos,
+  Desc,
+  Formation,
+  SkillsContainer,
+  Skills,
+  Skill,
+  SkillTitle,
 } from './style'
 
 export const CurriculumMain = () => {
@@ -15,10 +23,10 @@ export const CurriculumMain = () => {
       <CurriculumContent>
         <CentralColumn>
           {/* ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓  ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓ */}
-          <div className="flex items-center">
+          <SkillTitle>
             <FaSquareFull className="text-xl mr-2 text-[#0050FF]" />
             <h2 className='font-poppins font-bold text-4xl'>Currículo</h2>
-          </div>
+          </SkillTitle>
 
           <Experience>
             <CVContain>
@@ -29,48 +37,48 @@ export const CurriculumMain = () => {
               </Link>
             </CVContain>
 
-            <div className="flex justify-between items-center bg-white my-14 p-14 shadow-[-10px_15px_10px_#00000038]">
-              <div className="w-[200px]">
+            <ExampleCard>
+              <Infos>
                 <strong className='font-poppins text-xl text-[#0050FF]'>2022 - Atual</strong> <br />
                 <span className='text-lg leading-10'>CARGO</span>
                 <p>Nome da Empresa</p>
                 <p>Localização da Empresa</p>
-              </div>
+              </Infos>
 
-              <div className="w-[350px] h-[100%]">
+              <Desc>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dignissimos doloribus nobis amet, eaque repellat magnam asperiores vel, Accusamus, repudiandae. numquam modi optio.
                   <br /><br />
 
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, repudiandae.
                 </p>
-              </div>
-            </div>
+              </Desc>
+            </ExampleCard>
 
-            <div className="flex justify-between items-center bg-white my-14 p-14 shadow-[-10px_15px_10px_#00000038]">
-              <div className="w-[200px]">
+            <ExampleCard>
+              <Infos>
                 <strong className='font-poppins text-xl text-[#0050FF]'>2021 - 2022</strong> <br />
                 <span className='text-lg leading-10'>CARGO</span>
                 <p>Nome da Empresa</p>
                 <p>Localização da Empresa</p>
-              </div>
+              </Infos>
 
-              <div className="w-[350px] h-[100%]">
+              <Desc>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dignissimos doloribus nobis amet, eaque repellat magnam asperiores vel, Accusamus, repudiandae. numquam modi optio.
                   <br /><br />
 
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, repudiandae.
                 </p>
-              </div>
-            </div>
+              </Desc>
+            </ExampleCard>
           </Experience>
 
-          <section className="flex flex-col mt-12">
+          <Formation>
             <h4 className='font-poppins text-2xl font-bold'>Formação Acadêmica</h4>
 
-            <div className="flex justify-between items-center bg-white my-14 p-14 shadow-[-10px_15px_10px_#00000038]">
-              <div className="w-[200px]">
+            <ExampleCard>
+              <Infos>
                 <strong className='font-poppins text-xl text-[#0050FF]'>
                   2022 - Atual <br />
                   Previsão 2026
@@ -79,7 +87,7 @@ export const CurriculumMain = () => {
                 <span className="text-lg">Universidade Federal de Alagoas - UFAL</span>
                 <p>Física - Bacharelado</p>
                 <p>Maceió - AL</p>
-              </div>
+              </Infos>
 
               <div className="w-[390px] h-[100%]">
                 <p>
@@ -89,19 +97,20 @@ export const CurriculumMain = () => {
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, repudiandae.
                 </p>
               </div>
-            </div>
-          </section>
+            </ExampleCard>
+          </Formation>
 
-          <section className="flex flex-col bg-white my-[100px] p-[50px] shadow-[-10px_15px_10px_#00000038]">
+          <SkillsContainer>
             <h4 className='font-poppins font-bold text-3xl mb-[20px] '>Habilidades Técnicas</h4>
 
-            <div className="flex flex-wrap w-[700px] justify-center">
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
-                <div className="flex items-center">
-                  <div className="square"></div>
-                  <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">HTML5</p>
-                </div>
-                <div className="skillDesc">
+            <Skills>
+              <Skill>
+                <SkillTitle>
+                  <h2 className='font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4'>HTML5</h2>
+                </SkillTitle>
+
+                {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
+                <div>
                   <ul>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Semântica</li>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Elementos</li>
@@ -109,14 +118,15 @@ export const CurriculumMain = () => {
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Formulários</li>
                   </ul>
                 </div>
-              </div>
+              </Skill>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
-                <div className="flex items-center">
-                  <div className="square"></div>
-                  <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">CSS3</p>
-                </div>
-                <div className="skillDesc">
+              <Skill>
+                <SkillTitle>
+                  <h2 className='font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4'>CSS3</h2>
+                </SkillTitle>
+
+                {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
+                <div>
                   <ul>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Herança</li>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Cascata</li>
@@ -130,14 +140,15 @@ export const CurriculumMain = () => {
                     </mark>
                   </ul>
                 </div>
-              </div>
+              </Skill>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
-                <div className="flex items-center">
-                  <div className="square"></div>
-                  <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">JAVASCRIPT</p>
-                </div>
-                <div className="skillDesc">
+              <Skill>
+                <SkillTitle>
+                  <h2 className='font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4'>JAVASCRIPT</h2>
+                </SkillTitle>
+
+                {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
+                <div>
                   <ul>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Sintax</li>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>DOM</li>
@@ -153,14 +164,15 @@ export const CurriculumMain = () => {
                     </mark>
                   </ul>
                 </div>
-              </div>
+              </Skill>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
-                <div className="flex items-center">
-                  <div className="square"></div>
-                  <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">FRAMEWORK CSS</p>
-                </div>
-                <div className="skillDesc">
+              <Skill>
+                <SkillTitle>
+                  <h2 className='font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4'>FRAMEWORK CSS</h2>
+                </SkillTitle>
+
+                {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
+                <div>
                   <ul>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Bootstrapp</li>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Tailwind</li>
@@ -169,41 +181,44 @@ export const CurriculumMain = () => {
                     </mark>
                   </ul>
                 </div>
-              </div>
+              </Skill>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
-                <div className="flex items-center">
-                  <div className="square"></div>
-                  <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">VERSIONAMENTO DE CÓDIGO</p>
-                </div>
-                <div className="skillDesc">
+              <Skill>
+                <SkillTitle>
+                  <h2 className='font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4'>VERSIONAMENTO DE CÓDIGO</h2>
+                </SkillTitle>
+
+                {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
+                <div>
                   <ul>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Git</li>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>GitHub</li>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>GitLab</li>
                   </ul>
                 </div>
-              </div>
+              </Skill>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
-                <div className="flex items-center">
-                  <div className="square"></div>
-                  <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">GERENCIADOR DE PACOTES</p>
-                </div>
-                <div className="skillDesc">
+              <Skill>
+                <SkillTitle>
+                  <h2 className='font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4'>GERENCIADOR DE PACOTES</h2>
+                </SkillTitle>
+
+                {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
+                <div>
                   <ul>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>NPM</li>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>YARN</li>
                   </ul>
                 </div>
-              </div>
+              </Skill>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
-                <div className="flex items-center">
-                  <div className="square"></div>
-                  <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">BIBLIOTECAS/<br />FRAMEWORKS JS</p>
-                </div>
-                <div className="skillDesc">
+              <Skill>
+                <SkillTitle>
+                  <h2 className='font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4'>BIBLIOTECAS/<br />FRAMEWORKS JS</h2>
+                </SkillTitle>
+
+                {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
+                <div>
                   <ul>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>React</li>
                     <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
@@ -214,14 +229,15 @@ export const CurriculumMain = () => {
                     </mark>
                   </ul>
                 </div>
-              </div>
+              </Skill>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
-                <div className="flex items-center">
-                  <div className="square"></div>
-                  <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">TESTES</p>
-                </div>
-                <div className="skillDesc">
+              <Skill>
+                <SkillTitle>
+                  <h2 className='font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4'>TESTES</h2>
+                </SkillTitle>
+
+                {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
+                <div>
                   <ul>
                     <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Cypress</li>
@@ -232,14 +248,15 @@ export const CurriculumMain = () => {
                     </mark>
                   </ul>
                 </div>
-              </div>
+              </Skill>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
-                <div className="flex items-center">
-                  <div className="square"></div>
-                  <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">SSR</p>
-                </div>
-                <div className="skillDesc">
+              <Skill>
+                <SkillTitle>
+                  <h2 className='font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4'>SSR</h2>
+                </SkillTitle>
+
+                {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
+                <div>
                   <ul>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Next.js (REACT)</li>
                     <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
@@ -250,14 +267,15 @@ export const CurriculumMain = () => {
                     </mark>
                   </ul>
                 </div>
-              </div>
+              </Skill>
 
-              <div className="bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]">
-                <div className="flex items-center">
-                  <div className="square"></div>
-                  <p className="font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4">BUNDLERS</p>
-                </div>
-                <div className="skillDesc">
+              <Skill>
+                <SkillTitle>
+                  <h2 className='font-poppins font-bold text-xl text-[#0050FF] border-b-2 border-b-[#0050FF] mb-4'>BUNDLERS</h2>
+                </SkillTitle>
+
+                {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
+                <div>
                   <ul>
                     <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Webpack</li>
@@ -270,9 +288,9 @@ export const CurriculumMain = () => {
                     </mark>
                   </ul>
                 </div>
-              </div>
-            </div>
-          </section>
+              </Skill>
+            </Skills>
+          </SkillsContainer>
         </CentralColumn>
       </CurriculumContent>
     </TemplateCurriculumContainer>
