@@ -12,7 +12,7 @@ export const CopyContainer = tw.div`
 
 export const Copy = tw.p`
     lg:mt-0
-    text-xs flex flex-col items-center mt-[50px] p-3 border-2 border-[#bbbbbb] rounded-md
+    text-xs flex flex-col items-center mt-[50px]
 `
 
 export const SocialContainer = tw.div`
