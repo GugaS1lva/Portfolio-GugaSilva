@@ -20,8 +20,8 @@ export const HomeMain = () => {
           <LeftCard>
             <LeftInfoContainer>
               <img className='w-[200px] h-[200px] rounded-full m-10' src="/images/perfil-clone.jpeg" alt="#" />
-              <strong className='text-3xl leading-9 pb-6 border-[#0050FF] border-solid border-b-2 font-poppins'>Gustavo<br /> Silva</strong>
-              <span className='text-lg tracking-[5px] mt-8'>DESENVOLVEDOR WEB</span>
+              <strong className='text-3xl leading-9 pb-6 border-[#0050FF] border-solid border-b-2 font-poppins'>Gustavo Silva</strong><br />
+              <span className='text-lg tracking-[5px] mt-[15px] mb-[40px]'>DESENVOLVEDOR WEB</span>
             </LeftInfoContainer>
 
             <LeftIconContainer>
@@ -48,7 +48,7 @@ export const HomeMain = () => {
 
               <h3 className='text-2xl mt-5 mb-10 font-bold'>Meu perfil e meus projetos</h3>
 
-              <div>
+              <div className='mb-[60px]'>
                 <Link href="/curriculum">
                   <a className='items-center bg-[#0050FF] text-white font-bold rounded-full pt-2 pb-2 pl-6 pr-6 mr-3 border-2 border-[#0050FF] hover:bg-white hover:text-black hover:border-2 hover:border-[black]'>CURRÍCULO</a>
                 </Link>

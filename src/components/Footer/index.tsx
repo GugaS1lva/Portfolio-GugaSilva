@@ -1,31 +1,40 @@
 import React from 'react'
 import Link from 'next/link'
 import { FaGithub, FaInstagram, FaLinkedinIn, FaWhatsapp } from "react-icons/fa"
-import { TemplateFooterContainer } from './style'
+import { 
+  TemplateFooterContainer,
+  CopyContainer,
+  Copy,
+  SocialContainer,
+
+ } from './style'
 
 
 export const Footer = () => {
   return (
     <TemplateFooterContainer>
-      <div className='w-44 text-sm'>
-        <p className='leading-7'>
+      <CopyContainer>
+        <Copy>
           © 2022 by Gustavo Silva.
           All rights reserved.
-        </p>
-      </div>
+        </Copy>
+      </CopyContainer>
 
-      <div className='flex'>
+      <SocialContainer>
+        {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
         <div className='flex flex-col items-center ml-4 mr-4'>
           <h3 className='font-bold text-sm'>Email</h3>
           <a className='border-b-[1px] border-transparent hover:border-[#0050FF] hover:text-[#0050FF]' href="mailto:contatogustavosilva017@outlook.com">contatogustavosilva017@outlook.com</a>
         </div>
 
+        {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
         <div className='flex flex-col items-center ml-4 mr-4'>
           <h3 className='font-bold text-sm'>Telefone</h3>
           <span>(82) 9 8752-4230</span>
           <span>(82) 9 8182-8018</span>
         </div>
 
+        {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
         <div className='flex flex-col items-center ml-4 mr-4'>
           <h3 className='font-bold text-sm'>Redes Sociais</h3>
           <div className='flex p-5 items-center justify-center'>
@@ -43,7 +52,7 @@ export const Footer = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </SocialContainer>
     </TemplateFooterContainer>
   )
 }
