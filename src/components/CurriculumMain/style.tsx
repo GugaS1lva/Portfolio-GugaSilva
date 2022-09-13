@@ -57,7 +57,7 @@ export const Skills = tw.div`
 `
 
 export const Skill = tw.div`
-    bg-[#F4ECE6] rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]
+    bg-[#202A3C] text-white rounded-[10px] w-[200px] m-4 py-[5px] px-[10px] shadow-[-10px_15px_10px_#00000038]
 `
 
 export const SkillTitle = tw.div`

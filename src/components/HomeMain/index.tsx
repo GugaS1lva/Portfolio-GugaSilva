@@ -19,7 +19,7 @@ export const HomeMain = () => {
         <CentralCard>
           <LeftCard>
             <LeftInfoContainer>
-              <img className='w-[200px] h-[200px] rounded-full m-10' src="/images/perfil-clone.jpeg" alt="#" />
+              <img className='w-[200px] h-[200px] border-4 border-white rounded-full m-10' src="/images/perfil-clone.jpeg" alt="#" />
               <strong className='text-3xl leading-9 pb-6 border-[#0050FF] border-solid border-b-2 font-poppins'>Gustavo Silva</strong><br />
               <span className='text-lg tracking-[5px] mt-[15px] mb-[40px]'>DESENVOLVEDOR WEB</span>
             </LeftInfoContainer>
@@ -62,8 +62,8 @@ export const HomeMain = () => {
               <p className='mt-7 px-[10px] pb-[30px] text-start'>
                 Sou um Desenvolvedor Frontend Júnior, ambicioso, hiperfocado e buscando crescer na área. Sempre fui um estudante/pesquisador autodidata em várias áreas (muitas colho benefícios até hoje) mas agora estou apontando tudo que tenho e me dedicando ao máximo ao ramo digital.
                 <br /><br />
-                Atualmente estou estudando desenvolvimento frontend e algumas outras tecnologias que complementam esse processo, como HTML5, CSS3, JavaScript, TypeScript, ReactJS, NextJS, NodeJS, Git e GitHub, alguns Frameworks CSS como Tailwind e Bootstrap e Testes de Software com Jest.
-                Meu objetivo é me tornar um profissional competente, disciplinado e conhecido na área de tecnologia.
+                Atualmente estou estudando desenvolvimento Frontend e algumas outras tecnologias que complementam esse processo, como HTML, CSS, JS, TS, React, Next, Node, Git e GitHub, alguns Frameworks-CSS como Tailwind e Bootstrap, Gerenciadores de Pacotes (NPM e YARN) e Testes de Software com Jest.
+                Meu objetivo é me tornar um profissional competente, relevante na área de tecnologia.
               </p>
             </div>
           </RightCard>

@@ -25,16 +25,16 @@ export const CurriculumMain = () => {
           {/* ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓  ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓ */}
           <SkillTitle>
             <FaSquareFull className="text-xl mr-2 text-[#0050FF]" />
-            <h2 className='font-poppins font-bold text-4xl'>Currículo</h2>
+            <h2 className='font-poppins text-white font-bold text-4xl'>Currículo</h2>
           </SkillTitle>
 
           <Experience>
             <CVContain>
               {/* ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓  ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓ */}
-              <h3 className='font-poppins font-bold text-2xl mr-4'>Experiência</h3>
+              <h3 className='font-poppins text-white font-bold text-2xl mr-4'>Experiência</h3>
 
               <Link href="/cv/curriculo-dev-gugasilva.zip" download="curriculo-dev-gugasilva.pdf" type="application/zip" target="_blank">
-                <a className='ml-4 items-center bg-[#0050FF] text-white font-bold py-[8px] px-[35px] rounded-full hover:bg-[#E6DACE] hover:text-black hover:py-[6px] hover:px-[33px] hover:border-2 hover:border-solid hover:border-[#0050FF]'>BAIXAR CV</a>
+                <a className='ml-4 items-center bg-[#0050FF] text-white font-bold py-[8px] px-[35px] rounded-full hover:bg-[#181F2B] hover:text-white hover:py-[6px] hover:px-[33px] hover:border-2 hover:border-solid hover:border-white'>BAIXAR CV</a>
               </Link>
             </CVContain>
 
@@ -76,7 +76,7 @@ export const CurriculumMain = () => {
           </Experience>
 
           <Formation>
-            <h4 className='font-poppins text-2xl font-bold'>Formação Acadêmica</h4>
+            <h4 className='font-poppins text-white text-2xl font-bold'>Formação Acadêmica</h4>
 
             <ExampleCard>
               <Infos>
@@ -136,7 +136,7 @@ export const CurriculumMain = () => {
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Flexbox/Grid</li>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Media Queries</li>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Animações Simples</li>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Sass, Less, PostCSS</li>
                     </mark>
                   </ul>
@@ -153,14 +153,14 @@ export const CurriculumMain = () => {
                   <ul>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Sintax</li>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>DOM</li>
-                    <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Fetch API/<mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>(Ajax (XHR))</mark></li>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Fetch API/<mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>(Ajax (XHR))</mark></li>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>ES6+ & Modules</li>
                     </mark>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>FP - Programação Funcional</li>
                     </mark>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Prorotype, POO</li>
                     </mark>
                   </ul>
@@ -177,7 +177,7 @@ export const CurriculumMain = () => {
                   <ul>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Bootstrapp</li>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Tailwind</li>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Materialize</li>
                     </mark>
                   </ul>
@@ -222,10 +222,10 @@ export const CurriculumMain = () => {
                 <div>
                   <ul>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>React</li>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Angular</li>
                     </mark>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Vue</li>
                     </mark>
                   </ul>
@@ -240,11 +240,11 @@ export const CurriculumMain = () => {
                 {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
                 <div>
                   <ul>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Cypress</li>
                     </mark>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Jest</li>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Enzyme</li>
                     </mark>
                   </ul>
@@ -260,10 +260,10 @@ export const CurriculumMain = () => {
                 <div>
                   <ul>
                     <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Next.js (REACT)</li>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Universal (ANGULAR)</li>
                     </mark>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Nuxt.js (VUE)</li>
                     </mark>
                   </ul>
@@ -278,13 +278,13 @@ export const CurriculumMain = () => {
                 {/* ATOMIC DESIGN !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */}
                 <div>
                   <ul>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Webpack</li>
                     </mark>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>Parcel</li>
                     </mark>
-                    <mark className='bg-[#F4ECE6] text-black line-through decoration-[#797979]'>
+                    <mark className='bg-[#202A3C] text-white line-through decoration-[#797979]'>
                       <li className='before:content-["✔"] before:mr-[5px] before:text-[#0050FF]'>esbuild</li>
                     </mark>
                   </ul>

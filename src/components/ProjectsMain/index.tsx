@@ -19,7 +19,7 @@ export const ProjectsMain = () => {
                     {/* ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓  ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓ */}
                     <div className="flex items-center">
                         <FaSquareFull className="text-xl mr-2 text-[#0050FF]" />
-                        <h2 className="font-poppins font-bold text-4xl">Projetos</h2>
+                        <h2 className="font-poppins font-bold text-white text-4xl">Projetos</h2>
                     </div>
 
                     <Desc>
@@ -27,7 +27,7 @@ export const ProjectsMain = () => {
                             Aqui ficam apenas três projetos que foram selecionados por terem funcionalidades distintas mas igualmente importantes para um Desenvolvedor. <br />
                             Esses três projetos serão subtituídos por novos conforme o avanço das minhas habilidades. <br />
                             Caso deseje verificar todos os meus repositórios, é só clicar no OctoCat ao lado:
-                            <Link href="https://github.com/GugaS1lva?tab=repositories"><a target="_blank"><FaGithubAlt className="inline mx-3 text-3xl hover:text-[#0050FF]" /></a></Link>
+                            <Link href="https://github.com/GugaS1lva?tab=repositories"><a target="_blank"><FaGithubAlt className="inline mx-3 text-3xl hover:text-[#61dfd9] hover:scale-110" /></a></Link>
                         </p>
                     </Desc>
 
@@ -43,8 +43,8 @@ export const ProjectsMain = () => {
                             </TitleProject>
                             <p className="p-10 w-[320px] sm:w-[100%] lg:w-[482px] lg:mt-[-15px]">
                                 Esse projeto reúne minhas habilidades, competências, qualificações e experiências profissionais. <br /><br />
-                                É o projeto mais profissional, descritivo e organizado que eu já construí do total zero e sem nenhuma ajuda, me orgulho disso. <br /><br />
-                                Continuarei atualizando-o com novos projetos cada vez mais complexos e que agreguem na minha carreira como Desenvolvedor.
+                                É o projeto mais profissional, descritivo e organizado que já construí do total zero e sem nenhuma ajuda (me orgulho disso). <br /><br />
+                                Continuarei atualizando-o com novos projetos cada vez mais complexos e que agreguem valor à minha carreira como Desenvolvedor.
                             </p>
                         </InfoProject>
 

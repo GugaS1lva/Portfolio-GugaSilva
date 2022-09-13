@@ -4,6 +4,8 @@ import { FaSquareFull, FaBars } from "react-icons/fa";
 import {
     TemplateHeaderContainer,
     LogoContainer,
+    NavigatorContent,
+    NavContainer,
 } from './style';
 
 export const Header = () => {
@@ -22,8 +24,8 @@ export const Header = () => {
                 </LogoContainer>
             </Link>
 
-            <nav className="border-gray-200 absolute top-5 right-5 p-3 rounded-lg">
-                <div className="flex flex-col items-end">
+            <NavigatorContent>
+                <NavContainer>
                     <button onClick={() => setShowMenuMobile(!showMenuMobile)} type="button" className="text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
                         <FaBars className='w-7 h-7' />
                     </button>
@@ -55,8 +57,8 @@ export const Header = () => {
                             </li>
                         </ul>
                     </div>
-                </div>
-            </nav>
+                </NavContainer>
+            </NavigatorContent>
         </TemplateHeaderContainer>
     )
 }

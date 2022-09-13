@@ -3,7 +3,7 @@ import tw from "tailwind-styled-components/dist/tailwind";
 export const TemplateProjectsContainer = tw.div``
 
 export const ProjectsContent = tw.main`
-    flex justify-center bg-[#E6DACE] mt-[200px]
+    flex justify-center mt-[200px]
 `
 
 export const CentralColumn = tw.section`
@@ -15,7 +15,7 @@ export const CentralColumn = tw.section`
 export const Desc = tw.div`
     lg:w-[850px]
     sm:text-xl sm:w-[600px]
-    text-center mt-8 w-[320px]
+    text-center mt-8 w-[320px] text-white
 `
 
 export const CardProject = tw.div`

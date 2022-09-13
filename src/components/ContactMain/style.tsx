@@ -9,13 +9,13 @@ export const ContactContent = tw.main`
 `
 
 export const CentralColumn = tw.section`
-    flex flex-col items-center
+    flex flex-col items-center text-white
 `
 
 export const Form = tw.form`
     lg:w-[700px]
     sm:w-[600px] sm:px-[70px]
-    font-bold text-sm bg-white py-[50px] px-[30px] my-[100px] w-[300px] shadow-[-10px_15px_10px_#00000038] 
+    font-bold text-sm bg-white py-[50px] px-[30px] my-[100px] w-[300px] shadow-[-10px_15px_10px_#00000038] text-black
 `
 
 export const InputContainer = tw.div`

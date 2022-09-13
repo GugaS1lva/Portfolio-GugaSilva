@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-    background-color: #E6DACE;
+    background-color: #181F2B;
 
     display: flex;
     flex-direction: column;
