@@ -18,9 +18,9 @@
 
 <h3 id="the-project"><strong>The Project</strong></h3>
 
-    This project aims to present, document and store my skills, qualifications and professional experiences.
-
-    It will be constantly updated and implemented with new technologies, design and features, in order to record my own line of evolution and learning.
+> This project aims to present, document and store my skills, qualifications and professional experiences.
+> 
+> It will be constantly updated and implemented with new technologies, design and features, in order to record my own line of evolution and learning.
 
 <h3 id="screenshot"><strong>Screenshot</strong></h3>
 
