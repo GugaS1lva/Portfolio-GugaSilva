@@ -21,10 +21,10 @@
 
 <h3 id="screenshot"><strong>Screenshot</strong></h3>
 
-• Mobile Layout Preview
+• Mobile Layout Preview <br>
 ![Mobile](./public/images/design/mobile-dsgn.png)
 
-• Web Layout Preview
+• Web Layout Preview <br>
 ![Web](./public/images/design/web-dsgn.png)
 
 
