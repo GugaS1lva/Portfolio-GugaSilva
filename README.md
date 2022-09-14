@@ -1,7 +1,7 @@
 # Portfolio-GugaSilva
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/GugaS1lva/Portfolio-GugaSilva/blob/main/LICENSE) 
 
-## Table of contents
+<h2>Table of contents</h2>
 
 - [Overview](#overview)
   - [The project](#the-project)
@@ -12,7 +12,7 @@
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-<hr>
+
 <h2 id="overview"><strong>« [Overview] »</strong></h2>
 <br>
 
@@ -42,7 +42,7 @@
 - Production #02: [Click-me](https://portfolio-guga-silva-7ydhxl1hd-gugas1lva.vercel.app/)
 
 
-<hr>
+
 <h2 id="my-process"><strong>« [My Process] »</strong></h2>
 <br>
 
@@ -82,7 +82,5 @@
 
 
 <h3 id="what-i-learned"><strong>What I Learned</strong></h3>
-<br>
-
-<h2 id="author"><strong>« [Author] »</strong></h2>
+<br><h2 id="author"><strong>« [Author] »</strong></h2>
 
