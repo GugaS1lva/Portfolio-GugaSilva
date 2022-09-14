@@ -14,7 +14,6 @@
 
 
 <h2 id="overview"><strong>« [Overview] »</strong></h2>
-<br>
 
 <h3 id="the-project"><strong>The Project</strong></h3>
 
@@ -40,9 +39,7 @@
 - Production #02: [Click-me](https://portfolio-guga-silva-7ydhxl1hd-gugas1lva.vercel.app/)
 
 
-
 <h2 id="my-process"><strong>« [My Process] »</strong></h2>
-<br>
 
 <h3 id="built-with"><strong>Built with</strong></h3>
 
@@ -90,8 +87,6 @@
 - Cloudflare
 - CDNJS
 
-
-<br>
 <h2 id="author"><strong>« [Author] »</strong></h2>
 
 - LinkedIn - [@GustavoSilva](https://www.linkedin.com/in/guga-silva-124706233/)
