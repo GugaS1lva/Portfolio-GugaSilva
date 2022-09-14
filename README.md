@@ -1,86 +1,88 @@
-# Example app with styled-components
+# Portfolio-GugaSilva
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/GugaS1lva/Portfolio-GugaSilva/blob/main/LICENSE) 
 
-This example features how you use a different styling solution than [styled-jsx](https://github.com/vercel/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).
+## Table of contents
 
-This example uses the Rust-based [SWC](https://nextjs.org/docs/advanced-features/compiler#styled-components) in Next.js for better performance than Babel.
+- [Overview](#overview)
+  - [The project](#the-project)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+- [Author](#author)
 
-Currently, only the `ssr` and `displayName` transforms have been implemented. These two transforms are the main requirement for using `styled-components` in Next.js.
+<hr>
+<h2 id="overview"><strong>« [Overview] »</strong></h2>
+<br>
 
-## Deploy your own
+<h3 id="the-project"><strong>The Project</strong></h3>
+<br>
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-styled-components)
+<h3 id="screenshot"><strong>Screenshot</strong></h3>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-styled-components&project-name=with-styled-components&repository-name=with-styled-components)
+• Mobile Layout Preview
+<hr>
 
-## How to use
+![Mobile](./public/images/design/mobile-dsgn.png)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+• Web Layout Preview
+<hr>
 
-```bash
-npx create-next-app --example with-styled-components with-styled-components-app
-```
+![Web](./public/images/design/web-dsgn.png)
 
-```bash
-yarn create next-app --example with-styled-components with-styled-components-app
-```
 
-```bash
-pnpm create next-app --example with-styled-components with-styled-components-app
-```
+<h3 id="links"><strong>Links</strong></h3>
+<br>
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+- Live Site URL: [Click-me](https://portfolio-guga-silva.vercel.app/)
 
-### Try it on CodeSandbox
+- Production #01: [Click-me](https://portfolio-guga-silva-pazfk9mlu-gugas1lva.vercel.app/)
 
-[Open this example on CodeSandbox](https://codesandbox.io/s/github/vercel/next.js/tree/canary/examples/with-styled-components)
+- Production #02: [Click-me](https://portfolio-guga-silva-7ydhxl1hd-gugas1lva.vercel.app/)
 
-### Notes
 
-When wrapping a [Link](https://nextjs.org/docs/api-reference/next/link) from `next/link` within a styled-component, the [as](https://styled-components.com/docs/api#as-polymorphic-prop) prop provided by `styled` will collide with the Link's `as` prop and cause styled-components to throw an `Invalid tag` error. To avoid this, you can either use the recommended [forwardedAs](https://styled-components.com/docs/api#forwardedas-prop) prop from styled-components or use a different named prop to pass to a `styled` Link.
+<hr>
+<h2 id="my-process"><strong>« [My Process] »</strong></h2>
+<br>
 
-<details>
-<summary>Click to expand workaround example</summary>
-<br />
+<h3 id="built-with"><strong>Built With</strong></h3>
 
-**components/StyledLink.js**
+<h4>Front end</h4>
 
-```javascript
-import Link from 'next/link'
-import styled from 'styled-components'
+- HTML / CSS / JS / TypeScript
+- ReactJS
+- NextJS
+- NodeJS
+- Webpack
 
-const StyledLink = ({ as, children, className, href }) => (
-  <Link href={href} as={as} passHref>
-    <a className={className}>{children}</a>
-  </Link>
-)
+<h4>Framework JavaScript</h4>
 
-export default styled(StyledLink)`
-  color: #0075e0;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
+- React
+- React-Icons
+- Styled-Components
 
-  &:hover {
-    color: #40a9ff;
-  }
+<h4>Framework Web</h4>
 
-  &:focus {
-    color: #40a9ff;
-    outline: none;
-    border: 0;
-  }
-`
-```
+- NextJS
 
-**pages/index.js**
+<h4>Framework UI</h4>
 
-```javascript
-import StyledLink from '../components/StyledLink'
+- Tailwind-CSS
+- MUI
 
-export default () => (
-  <StyledLink href="/post/[pid]" forwardedAs="/post/abc">
-    First post
-  </StyledLink>
-)
-```
+<h4>Paas</h4>
 
-</details>
+- Vercel
+
+<h4>CDN</h4>
+
+- Cloudflare
+- CDNJS
+
+
+<h3 id="what-i-learned"><strong>What I Learned</strong></h3>
+<br>
+
+<h2 id="author"><strong>« [Author] »</strong></h2>
+
