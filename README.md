@@ -22,13 +22,9 @@
 <h3 id="screenshot"><strong>Screenshot</strong></h3>
 
 • Mobile Layout Preview
-<hr>
-
 ![Mobile](./public/images/design/mobile-dsgn.png)
 
 • Web Layout Preview
-<hr>
-
 ![Web](./public/images/design/web-dsgn.png)
 
 
