@@ -19,7 +19,7 @@ export const HomeMain = () => {
         <CentralCard>
           <LeftCard>
             <LeftInfoContainer>
-              <img className='w-[200px] h-[200px] border-4 border-white rounded-full m-10' src="/images/perfil-clone.jpeg" alt="#" />
+              <img className='w-[200px] h-[200px] border-4 border-white rounded-full m-10' src="/images/profile/perfil-03-clone.jpeg" alt="#" />
               <strong className='text-3xl leading-9 pb-6 border-[#0050FF] border-solid border-b-2 font-poppins'>Gustavo Silva</strong><br />
               <span className='text-lg tracking-[5px] mt-[15px] mb-[40px]'>DESENVOLVEDOR WEB</span>
             </LeftInfoContainer>

@@ -48,7 +48,7 @@ export const ProjectsMain = () => {
                             </p>
                         </InfoProject>
 
-                        <div className="block bg-[url('/images/portfolio.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
+                        <div className="block bg-[url('/images/projects/portfolio.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
                     </CardProject>
 
                     <CardProject>
@@ -68,7 +68,7 @@ export const ProjectsMain = () => {
                             </p>
                         </InfoProject>
 
-                        <div className="block bg-[url('/images/github.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
+                        <div className="block bg-[url('/images/projects/github.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
                     </CardProject>
 
                     <CardProject>
@@ -88,7 +88,7 @@ export const ProjectsMain = () => {
                             </p>
                         </InfoProject>
 
-                        <div className="block bg-[url('/images/fylo.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
+                        <div className="block bg-[url('/images/projects/fylo.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
                     </CardProject>
                 </CentralColumn>
             </ProjectsContent>
