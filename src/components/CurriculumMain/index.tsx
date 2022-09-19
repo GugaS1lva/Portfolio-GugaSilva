@@ -33,7 +33,7 @@ export const CurriculumMain = () => {
               {/* ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓  ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓ */}
               <h3 className='font-poppins text-white font-bold text-2xl mr-4'>Experiência</h3>
 
-              <Link href="/cv/curriculo-dev-gugasilva.zip" download="curriculo-dev-gugasilva.pdf" type="application/zip" target="_blank">
+              <Link href="/cv/Curriculo-Desenvolvedor-Gustavo-Silva.zip" download="curriculo-dev-gugasilva.pdf" type="application/zip" target="_blank">
                 <a className='ml-4 items-center bg-[#0050FF] text-white font-bold py-[8px] px-[35px] rounded-full hover:bg-[#181F2B] hover:text-white hover:py-[6px] hover:px-[33px] hover:border-2 hover:border-solid hover:border-white'>BAIXAR CV</a>
               </Link>
             </CVContain>
