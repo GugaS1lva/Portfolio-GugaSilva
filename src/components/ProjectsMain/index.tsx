@@ -24,7 +24,7 @@ export const ProjectsMain = () => {
 
                     <Desc>
                         <p>
-                            Aqui ficam apenas três projetos que foram selecionados por terem funcionalidades distintas mas igualmente importantes para um Desenvolvedor. <br />
+                            Aqui ficam apenas alguns projetos que foram selecionados por terem funcionalidades distintas mas igualmente importantes para um Desenvolvedor. <br />
                             Esses três projetos serão subtituídos por novos conforme o avanço das minhas habilidades. <br />
                             Caso deseje verificar todos os meus repositórios, é só clicar no OctoCat ao lado:
                             <Link href="https://github.com/GugaS1lva?tab=repositories"><a target="_blank"><FaGithubAlt className="inline mx-3 text-3xl hover:text-[#61dfd9] hover:scale-110" /></a></Link>
@@ -69,6 +69,26 @@ export const ProjectsMain = () => {
                         </InfoProject>
 
                         <div className="block bg-[url('/images/projects/github.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
+                    </CardProject>
+
+                    <CardProject>
+                        <InfoProject>
+                            <TitleProject>
+                                <Link href="https://github.com/GugaS1lva/HooBank_Master">
+                                    <a target="_blank">
+                                        <h1 className="font-poppins font-bold text-2xl text-[#0050FF] hover:underline">HooBank Master</h1>
+                                    </a>
+                                </Link>
+                                <h3 className="font-poppins font-bold text-xl my-2">Landingpage</h3>
+                            </TitleProject>
+                            <p className="p-10 w-[320px] sm:w-[100%] lg:w-[482px] lg:mt-[-15px]">
+                                Essa Landingpage foi feita em duas noites de código. Utilizei apenas React (Vite.JS) e Tailwind pra deixar tudo pronto. <br /><br />
+                                Foi construído pra consolidar meus conhecimentos, como um treinamento pessoal. <br /><br />
+                                Responsivo, com boas práticas de codificação e a utilização de temas/templates para facilitar a refatoração dos próximos programadores.
+                            </p>
+                        </InfoProject>
+
+                        <div className="block bg-[url('/images/projects/hoobank.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
                     </CardProject>
 
                     <CardProject>
