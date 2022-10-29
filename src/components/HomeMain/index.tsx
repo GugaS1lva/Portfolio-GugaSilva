@@ -20,23 +20,23 @@ export const HomeMain = () => {
           <LeftCard>
             <LeftInfoContainer>
               <img className='w-[200px] h-[200px] border-4 border-white rounded-full m-10' src="/images/profile/me-02.jpeg" alt="#" />
-              <strong className='text-3xl leading-9 pb-6 border-[#0050FF] border-solid border-b-2 font-poppins'>Gustavo Silva</strong><br />
+              <strong className='text-3xl leading-9 pb-6 border-[#8257E6] border-solid border-b-2 font-poppins'>Gustavo Silva</strong><br />
               <span className='text-lg tracking-[5px] mt-[15px] mb-[40px]'>DESENVOLVEDOR WEB</span>
             </LeftInfoContainer>
 
             <LeftIconContainer>
               <IconsContainer>
                 <Link href="https://www.linkedin.com/in/guga-silva-124706233" target="_blank" >
-                  <a className='text-black pb-2 hover:pb-0 hover:text-[#0050FF] hover:border-[#0050FF] hover:border-solid hover:border-b-2' target="_blank"><FaLinkedinIn className='text-[25px] ml-[10px] mr-[10px]' /></a>
+                  <a className='text-black pb-2 hover:pb-0 hover:text-[#8257E6] hover:border-[#8257E6] hover:border-solid hover:border-b-2' target="_blank"><FaLinkedinIn className='text-[25px] ml-[10px] mr-[10px]' /></a>
                 </Link>
                 <Link href="https://www.github.com/GugaS1lva" target={"_blank"} >
-                  <a className='text-black pb-2 hover:pb-0 hover:text-[#0050FF] hover:border-[#0050FF] hover:border-solid hover:border-b-2' target="_blank"><FaGithub className='text-[25px] ml-[10px] mr-[10px]' /></a>
+                  <a className='text-black pb-2 hover:pb-0 hover:text-[#8257E6] hover:border-[#8257E6] hover:border-solid hover:border-b-2' target="_blank"><FaGithub className='text-[25px] ml-[10px] mr-[10px]' /></a>
                 </Link>
                 <Link href="https://wa.me/558281828018" target="_blank" >
-                  <a className='text-black pb-2 hover:pb-0 hover:text-[#0050FF] hover:border-[#0050FF] hover:border-solid hover:border-b-2' target="_blank"><FaWhatsapp className='text-[25px] ml-[10px] mr-[10px]' /></a>
+                  <a className='text-black pb-2 hover:pb-0 hover:text-[#8257E6] hover:border-[#8257E6] hover:border-solid hover:border-b-2' target="_blank"><FaWhatsapp className='text-[25px] ml-[10px] mr-[10px]' /></a>
                 </Link>
                 <Link href="https://www.instagram.com/50repolhoscozidos/" target="_blank" >
-                  <a className='text-black pb-2 hover:pb-0 hover:text-[#0050FF] hover:border-[#0050FF] hover:border-solid hover:border-b-2' target="_blank"><FaInstagram className='text-[25px] ml-[10px] mr-[10px]' /></a>
+                  <a className='text-black pb-2 hover:pb-0 hover:text-[#8257E6] hover:border-[#8257E6] hover:border-solid hover:border-b-2' target="_blank"><FaInstagram className='text-[25px] ml-[10px] mr-[10px]' /></a>
                 </Link>
               </IconsContainer>
             </LeftIconContainer>
@@ -50,10 +50,10 @@ export const HomeMain = () => {
 
               <div className='mb-[60px]'>
                 <Link href="/curriculum">
-                  <a className='items-center bg-[#0050FF] text-white font-bold rounded-full pt-2 pb-2 pl-6 pr-6 mr-3 border-2 border-[#0050FF] hover:bg-white hover:text-black hover:border-2 hover:border-[black]'>CURRÍCULO</a>
+                  <a className='items-center bg-[#8257E6] text-white font-bold rounded-full pt-2 pb-2 pl-6 pr-6 mr-3 border-2 border-[#8257E6] hover:bg-white hover:text-black hover:border-2 hover:border-[black]'>CURRÍCULO</a>
                 </Link>
                 <Link href="/projects">
-                  <a className='items-center bg-[#0050FF] text-white font-bold rounded-full pt-2 pb-2 pl-6 pr-6 mr-3 border-2 border-[#0050FF] hover:bg-white hover:text-black hover:border-2 hover:border-[black]'>PROJETOS</a>
+                  <a className='items-center bg-[#8257E6] text-white font-bold rounded-full pt-2 pb-2 pl-6 pr-6 mr-3 border-2 border-[#8257E6] hover:bg-white hover:text-black hover:border-2 hover:border-[black]'>PROJETOS</a>
                 </Link>
               </div>
             </div>

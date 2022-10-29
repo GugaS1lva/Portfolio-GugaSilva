@@ -29,5 +29,5 @@ export const InfoProject = tw.div`
 `
 
 export const TitleProject = tw.div`
-    border-l-[10px] border-l-[#0050FF] pl-[30px]
+    border-l-[10px] border-l-[#8257E6] pl-[30px]
 `

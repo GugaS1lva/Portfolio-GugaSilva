@@ -34,25 +34,25 @@ export const Header = () => {
                         <ul className="flex flex-col items-center justify-center py-1 rounded-lg lg:flex-row lg:text-sm lg:bg-white bg-white">
                             <li className='pb-5'>
                                 <Link href="/">
-                                    <a className='font-normal text-black uppercase text-sm hover:text-[#0050FF] px-4 py-2]'>sobre mim</a>
+                                    <a className='font-normal text-black uppercase text-sm hover:text-[#8257E6] px-4 py-2]'>sobre mim</a>
                                 </Link>
                             </li>
 
                             <li className='pb-5'>
                                 <Link href="/curriculum">
-                                    <a className='font-normal text-black uppercase text-sm hover:text-[#0050FF] px-4 py-2]'>curriculo</a>
+                                    <a className='font-normal text-black uppercase text-sm hover:text-[#8257E6] px-4 py-2]'>curriculo</a>
                                 </Link>
                             </li>
 
                             <li className='pb-5'>
                                 <Link href="/projects">
-                                    <a className='font-normal text-black uppercase text-sm hover:text-[#0050FF] px-4 py-2]'>projetos</a>
+                                    <a className='font-normal text-black uppercase text-sm hover:text-[#8257E6] px-4 py-2]'>projetos</a>
                                 </Link>
                             </li>
 
                             <li className='pb-5'>
                                 <Link href="/contact">
-                                    <a className='font-normal text-black uppercase text-sm hover:text-[#0050FF] px-4 py-2]'>contato</a>
+                                    <a className='font-normal text-black uppercase text-sm hover:text-[#8257E6] px-4 py-2]'>contato</a>
                                 </Link>
                             </li>
                         </ul>

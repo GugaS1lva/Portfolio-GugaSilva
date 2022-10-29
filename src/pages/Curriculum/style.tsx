@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CurriculumContainer = styled.div`
-    background-color: #181F2B;
+    background-color: #191522;
 
     display: flex;
     flex-direction: column;

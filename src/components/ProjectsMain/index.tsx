@@ -18,7 +18,7 @@ export const ProjectsMain = () => {
                 <CentralColumn>
                     {/* ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓  ↓↓↓↓↓ ATOMIC DESIGN ↓↓↓↓↓ */}
                     <div className="flex items-center">
-                        <FaSquareFull className="text-xl mr-2 text-[#0050FF]" />
+                        <FaSquareFull className="text-xl mr-2 text-[#8257E6]" />
                         <h2 className="font-poppins font-bold text-white text-4xl">Projetos</h2>
                     </div>
 
@@ -27,7 +27,7 @@ export const ProjectsMain = () => {
                             Aqui ficam apenas alguns projetos que foram selecionados por terem funcionalidades distintas mas igualmente importantes para um Desenvolvedor. <br />
                             Esses três projetos serão subtituídos por novos conforme o avanço das minhas habilidades. <br />
                             Caso deseje verificar todos os meus repositórios, é só clicar no OctoCat ao lado:
-                            <Link href="https://github.com/GugaS1lva?tab=repositories"><a target="_blank"><FaGithubAlt className="inline mx-3 text-3xl hover:text-[#61dfd9] hover:scale-110" /></a></Link>
+                            <Link href="https://github.com/GugaS1lva?tab=repositories"><a target="_blank"><FaGithubAlt className="inline mx-3 text-3xl hover:text-[#a47cff] hover:scale-110" /></a></Link>
                         </p>
                     </Desc>
 
@@ -36,7 +36,7 @@ export const ProjectsMain = () => {
                             <TitleProject>
                                 <Link href="https://github.com/GugaS1lva/Portfolio-GugaSilva">
                                     <a target="_blank">
-                                        <h1 className="font-poppins font-bold text-2xl text-[#0050FF] hover:underline">Guga Silva | Portfólio</h1>
+                                        <h1 className="font-poppins font-bold text-2xl text-[#8257E6] hover:underline">Guga Silva | Portfólio 🔗</h1>
                                     </a>
                                 </Link>
                                 <h3 className="font-poppins font-bold text-xl my-2">Função</h3>
@@ -54,29 +54,9 @@ export const ProjectsMain = () => {
                     <CardProject>
                         <InfoProject>
                             <TitleProject>
-                                <Link href="https://github.com/GugaS1lva/GitHub-API_Profile.Search">
+                                <Link href="https://hoobank-master.vercel.app/">
                                     <a target="_blank">
-                                        <h1 className="font-poppins font-bold text-2xl text-[#0050FF] hover:underline">Profile Search | GitHub-API </h1>
-                                    </a>
-                                </Link>
-                                <h3 className="font-poppins font-bold text-xl my-2">Buscador de Usuários do GitHub</h3>
-                            </TitleProject>
-                            <p className="p-10 w-[320px] sm:w-[100%] lg:w-[482px] lg:text-sm">
-                                Esse projeto foi feito com HTML, CSS e JavaScript. Nele eu aprimorei bastante as minhas habilidades em consumo de API's, em leitura de documentações e refatoração de código. <br /><br />
-                                Se checar o código verá meu esforço em manter todas as variáves sendo reaproveitadas da maneira mais eficiente que pude pensar, na época. <br /><br />
-                                Apesar de sua funcionalidade ser simples, implementa-la, evitando erros e tornando o código mais limpo possível que foi o verdadeiro desafio.
-                            </p>
-                        </InfoProject>
-
-                        <div className="block bg-[url('/images/projects/github.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
-                    </CardProject>
-
-                    <CardProject>
-                        <InfoProject>
-                            <TitleProject>
-                                <Link href="https://github.com/GugaS1lva/HooBank_Master">
-                                    <a target="_blank">
-                                        <h1 className="font-poppins font-bold text-2xl text-[#0050FF] hover:underline">HooBank Master</h1>
+                                        <h1 className="font-poppins font-bold text-2xl text-[#8257E6] hover:underline">HooBank Master 🔗</h1>
                                     </a>
                                 </Link>
                                 <h3 className="font-poppins font-bold text-xl my-2">Landingpage</h3>
@@ -94,21 +74,61 @@ export const ProjectsMain = () => {
                     <CardProject>
                         <InfoProject>
                             <TitleProject>
-                                <Link href="https://github.com/GugaS1lva/Fr.Mentor-08--Fylo.Dark_Master">
+                                <Link href="https://fr-mentor-10-interactive-rating-component.vercel.app/">
                                     <a target="_blank">
-                                        <h1 className="font-poppins font-bold text-2xl text-[#0050FF] hover:underline">Fylo Dark Master</h1>
+                                        <h1 className="font-poppins font-bold text-2xl text-[#8257E6] hover:underline">Time Tracking Dashboard 🔗</h1>
                                     </a>
                                 </Link>
-                                <h3 className="font-poppins font-bold text-xl my-2">Landingpage</h3>
+                                <h3 className="font-poppins font-bold text-xl my-2">Painel de Controle de Tempo</h3>
                             </TitleProject>
                             <p className="p-10 w-[320px] sm:w-[100%] lg:w-[482px] lg:text-sm">
-                                Esse projeto foi feito apenas com HTML e CSS. <br /><br />
-                                O desafio pessoal dessa vez era criar essa Landingpage no tempo mais curto possível, desde que ficasse no ar e com o mínimo de erros de código possível. Levei uma noite para construíla do zero e sem supervisão. <br /><br />
-                                Alguns botões contém animações e na ultima seção tem espaço pra ser implantado validações de email com integração com backend.
+                                Projeto feito com: HTML, CSS, JS, React, Next, Node e TailwindCSS <br /><br />
+                                A ideia desse projeto é ser um componente - 'Painel de Gestão de Tempo' do usuário. Serve para gerir a quantidade de horas gasta em determinadas atividades como a quantidade de horas gasta no Trabalho ou Estudando por semana. <br /><br />
+                                As horas podem ser medidas Diariamente, Semanalmente ou Mensalmente de acordo com a preferência do usuário. <br /><br />
                             </p>
                         </InfoProject>
 
-                        <div className="block bg-[url('/images/projects/fylo.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
+                        <div className="block bg-[url('/images/projects/desktop-design.jpg')] w-[100%] h-[100%] bg-no-repeat bg-cover lg:bg-[length:530px_415px] bg-center"></div>
+                    </CardProject>
+
+                    <CardProject>
+                        <InfoProject>
+                            <TitleProject>
+                                <Link href="https://rocketpay-sable.vercel.app/">
+                                    <a target="_blank">
+                                        <h1 className="font-poppins font-bold text-2xl text-[#8257E6] hover:underline">Rocketpay 🔗</h1>
+                                    </a>
+                                </Link>
+                                <h3 className="font-poppins font-bold text-xl my-2">Digital Credit Card</h3>
+                            </TitleProject>
+                            <p className="p-10 mt-[-20px] w-[320px] sm:w-[100%] lg:w-[482px] lg:text-sm">
+                                RocketPay é um componente que simula o preenchimento de um formulário de cartão de crédito digital. <br /><br />
+                                Projeto feito com: HTML, CSS, JS, Vite, IMask <br /><br />
+                                O preenchimendo dos campos acontecem em tempo real, você mesmo pode experimentar. Para ajudar o usuário, no fim do formulário há um sumário com todos os cartões disponíveis, basta apenas digitar os números correspondentes de cada cartão no primeiro campo (Número do Cartão *) e pronto, seu cartão será selecionado automaticamente.<br /><br />
+                            </p>
+                        </InfoProject>
+
+                        <div className="block bg-[#121314] bg-[url('/images/projects/rocketpay.png')] w-[100%] h-[100%] bg-no-repeat bg-cover lg:bg-[length:488px_356px] bg-center"></div>
+                    </CardProject>
+
+                    <CardProject>
+                        <InfoProject>
+                            <TitleProject>
+                                <Link href="https://gugas1lva.github.io/GitHub-API_Profile.Search/">
+                                    <a target="_blank">
+                                        <h1 className="font-poppins font-bold text-2xl text-[#8257E6] hover:underline">Profile Search | GitHub-API 🔗</h1>
+                                    </a>
+                                </Link>
+                                <h3 className="font-poppins font-bold text-xl my-2">Buscador de Usuários do GitHub</h3>
+                            </TitleProject>
+                            <p className="p-10 w-[320px] sm:w-[100%] lg:w-[482px] lg:text-sm">
+                                Esse projeto foi feito com HTML, CSS e JavaScript. Nele eu aprimorei bastante as minhas habilidades em consumo de API's, em leitura de documentações e refatoração de código. <br /><br />
+                                Se checar o código verá meu esforço em manter todas as variáves sendo reaproveitadas da maneira mais eficiente que pude pensar, na época. <br /><br />
+                                Apesar de sua funcionalidade ser simples, implementa-la, evitando erros e tornando o código mais limpo possível que foi o verdadeiro desafio.
+                            </p>
+                        </InfoProject>
+
+                        <div className="block bg-[url('/images/projects/github.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
                     </CardProject>
                 </CentralColumn>
             </ProjectsContent>

@@ -20,7 +20,7 @@ export const CentralCard = tw.section`
 `
 
 export const LeftCard = tw.div`
-    bg-[#202A3C] flex flex-col justify-between text-center text-white shadow-[-10px_15px_10px_#00000038]
+    bg-[#32264F] flex flex-col justify-between text-center text-white shadow-[-10px_15px_10px_#00000077]
 `
 
 export const LeftInfoContainer = tw.div`
@@ -42,5 +42,5 @@ export const IconsContainer = tw.div`
 export const RightCard = tw.div`
     lg:max-w-[700px] lg:px-[50px] lg:text-start lg:shadow-none
     sm:p-[50px] sm:pt-0 
-    bg-white pt-0 text-center px-[25px] shadow-[-10px_15px_10px_#00000038] 
+    bg-white pt-0 text-center px-[25px] shadow-[-10px_15px_10px_#00000077] 
 `
