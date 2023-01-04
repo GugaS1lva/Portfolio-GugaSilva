@@ -5,7 +5,8 @@ export const TemplateHeaderContainer = tw.div`
 `
 
 export const LogoContainer = tw.a`
-    flex flex-col items-center lg:flex lg:items-center absolute top-5 left-8 sm:top-8 sm:left-9 sm:flex-row
+    sm:top-8 sm:left-9 sm:flex-row
+    flex flex-col items-center lg:flex lg:items-center absolute top-5 left-8 cursor-pointer
 `
 
 export const NavigatorContent = tw.nav`

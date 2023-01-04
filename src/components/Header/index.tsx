@@ -16,7 +16,7 @@ export const Header = () => {
             <Link href="/">
                 <LogoContainer>
                     <div className='flex items-center'>
-                        <FaSquareFull />
+                        <FaSquareFull className='text-[#32264F]' />
                         <strong className='text-2xl font-poppins ml-3 mr-3'>Gustavo Silva</strong>
                     </div>
 
