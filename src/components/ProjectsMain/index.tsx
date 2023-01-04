@@ -34,21 +34,24 @@ export const ProjectsMain = () => {
                     <CardProject>
                         <InfoProject>
                             <TitleProject>
-                                <Link href="https://github.com/GugaS1lva/Portfolio-GugaSilva">
+                                <Link href="https://gym-project-master.vercel.app/">
                                     <a target="_blank">
-                                        <h1 className="font-poppins font-bold text-2xl text-[#8257E6] hover:underline">Guga Silva | Portfólio 🔗</h1>
+                                        <h1 className="font-poppins font-bold text-2xl text-[#8257E6] hover:underline">Gym Project 🔗</h1>
                                     </a>
                                 </Link>
-                                <h3 className="font-poppins font-bold text-xl my-2">Função</h3>
+                                <h3 className="font-poppins font-bold text-xl my-2">Landingpage</h3>
                             </TitleProject>
                             <p className="p-10 w-[320px] sm:w-[100%] lg:w-[482px] lg:mt-[-15px]">
-                                Esse projeto reúne minhas habilidades, competências, qualificações e experiências profissionais. <br /><br />
-                                É o projeto mais profissional, descritivo e organizado que já construí do total zero e sem nenhuma ajuda (me orgulho disso). <br /><br />
-                                Continuarei atualizando-o com novos projetos cada vez mais complexos e que agreguem valor à minha carreira como Desenvolvedor.
+                                Foi feita em três dias de código. Utilizei React, Tailwind, Swiper, AOS, Node, HTML e CSS. <br /><br />
+                                Resolvi treinar minha pontualidade em transformar um Layout Figma num site na internet. Fiz toda a base de código + hospedagem na vercel. <br /><br />
+                                Foram usadas ferramentas legais para melhorar a exp do usuário, experimente os slides e a rolagem dinâmica da página, não vai se arrepender. ☕
                             </p>
                         </InfoProject>
 
-                        <div className="block bg-[url('/images/projects/portfolio.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
+                        <Link href="https://gym-project-master.vercel.app/">
+                            <a target="_blank" className="hover:scale-105 hover:rounded-lg transition-all  lg:hover:border-t-2 lg:hover:border-r-2 lg:hover:border-b-2 lg:hover:border-l-0 hover:border-t-0 hover:border-r-2 hover:border-b-2 hover:border-l-2 block bg-[#1B1B1E] bg-[url('/images/projects/gym-preview.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-right">
+                            </a>
+                        </Link>
                     </CardProject>
 
                     <CardProject>
@@ -62,13 +65,16 @@ export const ProjectsMain = () => {
                                 <h3 className="font-poppins font-bold text-xl my-2">Landingpage</h3>
                             </TitleProject>
                             <p className="p-10 w-[320px] sm:w-[100%] lg:w-[482px] lg:mt-[-15px]">
-                                Essa Landingpage foi feita em duas noites de código. Utilizei apenas React (Vite.JS) e Tailwind pra deixar tudo pronto. <br /><br />
+                                Essa Landingpage foi feita em duas dias de código. Utilizei apenas React (Vite.JS) e Tailwind pra deixar tudo pronto. <br /><br />
                                 Foi construído pra consolidar meus conhecimentos, como um treinamento pessoal. <br /><br />
                                 Responsivo, com boas práticas de codificação e a utilização de temas/templates para facilitar a refatoração dos próximos programadores.
                             </p>
                         </InfoProject>
 
-                        <div className="block bg-[url('/images/projects/hoobank.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
+                        <Link href="https://hoobank-master.vercel.app/">
+                            <a target="_blank" className="hover:scale-105 hover:rounded-lg transition-all  lg:hover:border-t-2 lg:hover:border-r-2 lg:hover:border-b-2 lg:hover:border-l-0 hover:border-t-0 hover:border-r-2 hover:border-b-2 hover:border-l-2 block bg-[url('/images/projects/hoobank.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center">
+                            </a>
+                        </Link>
                     </CardProject>
 
                     <CardProject>
@@ -88,7 +94,10 @@ export const ProjectsMain = () => {
                             </p>
                         </InfoProject>
 
-                        <div className="block bg-[url('/images/projects/desktop-design.jpg')] w-[100%] h-[100%] bg-no-repeat bg-cover lg:bg-[length:530px_415px] bg-center"></div>
+                        <Link href="https://fr-mentor-10-interactive-rating-component.vercel.app/">
+                            <a target="_blank" className="hover:scale-105 hover:rounded-lg transition-all  lg:hover:border-t-2 lg:hover:border-r-2 lg:hover:border-b-2 lg:hover:border-l-0 hover:border-t-0 hover:border-r-2 hover:border-b-2 hover:border-l-2 block bg-[url('/images/projects/desktop-design.jpg')] w-[100%] h-[100%] bg-no-repeat bg-cover lg:bg-[length:530px_415px] bg-center">
+                            </a>
+                        </Link>
                     </CardProject>
 
                     <CardProject>
@@ -108,7 +117,10 @@ export const ProjectsMain = () => {
                             </p>
                         </InfoProject>
 
-                        <div className="block bg-[#121314] bg-[url('/images/projects/rocketpay.png')] w-[100%] h-[100%] bg-no-repeat bg-cover lg:bg-[length:488px_356px] bg-center"></div>
+                        <Link href="https://rocketpay-sable.vercel.app/">
+                            <a target="_blank" className="hover:scale-105 hover:rounded-lg transition-all  lg:hover:border-t-2 lg:hover:border-r-2 lg:hover:border-b-2 lg:hover:border-l-0 hover:border-t-0 hover:border-r-2 hover:border-b-2 hover:border-l-2 block bg-[#121314] bg-[url('/images/projects/rocketpay.png')] w-[100%] h-[100%] bg-no-repeat bg-cover lg:bg-[length:488px_356px] bg-center">
+                            </a>
+                        </Link>
                     </CardProject>
 
                     <CardProject>
@@ -128,7 +140,33 @@ export const ProjectsMain = () => {
                             </p>
                         </InfoProject>
 
-                        <div className="block bg-[url('/images/projects/github.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center"></div>
+                        <Link href="https://gugas1lva.github.io/GitHub-API_Profile.Search/">
+                            <a target="_blank" className="hover:scale-105 hover:rounded-lg transition-all  lg:hover:border-t-2 lg:hover:border-r-2 lg:hover:border-b-2 lg:hover:border-l-0 hover:border-t-0 hover:border-r-2 hover:border-b-2 hover:border-l-2 block bg-[url('/images/projects/github.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center">
+                            </a>
+                        </Link>
+                    </CardProject>
+
+                    <CardProject>
+                        <InfoProject>
+                            <TitleProject>
+                                <Link href="https://github.com/GugaS1lva/Portfolio-GugaSilva">
+                                    <a target="_blank">
+                                        <h1 className="font-poppins font-bold text-2xl text-[#8257E6] hover:underline">Guga Silva | Portfólio 🔗</h1>
+                                    </a>
+                                </Link>
+                                <h3 className="font-poppins font-bold text-xl my-2">Função</h3>
+                            </TitleProject>
+                            <p className="p-10 w-[320px] sm:w-[100%] lg:w-[482px] lg:mt-[-15px]">
+                                Esse projeto reúne minhas habilidades, competências, qualificações e experiências profissionais. <br /><br />
+                                É o projeto mais profissional, descritivo e organizado que já construí do total zero e sem nenhuma ajuda (me orgulho disso). <br /><br />
+                                Continuarei atualizando-o com novos projetos cada vez mais complexos e que agreguem valor à minha carreira como Desenvolvedor.
+                            </p>
+                        </InfoProject>
+
+                        <Link href="https://github.com/GugaS1lva/Portfolio-GugaSilva">
+                            <a target="_blank" className="hover:scale-105 hover:rounded-lg transition-all  lg:hover:border-t-2 lg:hover:border-r-2 lg:hover:border-b-2 lg:hover:border-l-0 hover:border-t-0 hover:border-r-2 hover:border-b-2 hover:border-l-2 block bg-[url('/images/projects/portfolio.png')] w-[100%] h-[100%] bg-no-repeat bg-cover bg-center">
+                            </a>
+                        </Link>
                     </CardProject>
                 </CentralColumn>
             </ProjectsContent>
